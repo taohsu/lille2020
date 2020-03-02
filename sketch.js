@@ -1,5 +1,5 @@
 var img;
-var N = 60;
+var N = 30;
 var M = 60;
 var DT = 0.01;
 var DX;
@@ -17,10 +17,22 @@ var energyall = [];
 var inde = 0;
 var index;
 
+var trafficPerhour = 0;
+var trafficTotal = 0;
+var trafficArray = [];
+
+var energyPerhour = 0;
+var energyTotal = 0;
+var energyArray = [];
+
 function preload() {
-  data1 = loadJSON('site.json');
-  data2 = loadJSON('conso.json');
+  data1 = loadJSON('site_4g.json');
+  data2 = loadJSON('conso_4g.json');
   img = loadImage('Group.png');
+}
+
+function getSum(total, num) {
+    return total + num;
 }
 
 function setup() {
@@ -28,7 +40,7 @@ function setup() {
   createCanvas(600, 600);
   DX = 1.0 / N;
   // coef = DIFFUSE_COEF * DT / (DX * DX);
-  coef = 0.1;
+  coef = 0.2;
   // console.log("diffuse number: " + coef);
   initialize();
   
@@ -87,7 +99,7 @@ image(img, 0, 0);
   var h = height / N;
   for (var y = 1; y < N + 1; y++) {
     for (var x = 1; x < N + 1; x++) {
-      fill(grid[y][x].x, grid[y][x].y, grid[y][x].z, 180);
+      fill(grid[y][x].x, grid[y][x].y, grid[y][x].z, 190);
       rect((x - 1) * w, (y - 1) * h, w, h);
     }
   }
@@ -97,11 +109,14 @@ image(img, 0, 0);
   
   // if (mouseIsPressed) {
   for (var i = 0; i < locationx.length; i++) {
-  
+    
+    trafficPerhour = trafficall[i][index];
+    energyPerhour = energyall[i][index];
+    
     for (var y = 1; y < N + 1; y++) {
       for (var x = 1; x < N + 1; x++) {
         var d = sqrt(sq((x - 1) * w - locationx[i]) + sq((y - 1) * h - locationy[i]));
-        var s = 0.5 * pow(max(width - d*6, 0) / width, map(trafficall[i][index], 132, 0, 2, 20));
+        var s = 0.5 * pow(max(width - d*4, 0) / width, map(trafficall[i][index], 132, 0, 2, 20));
         // var c = color(frameCount % 360, 100, 100);
         // var hue = round(map(energyall[i][index], 0.5, 1.6, 180, 360)) % 360;
         // console.log(hue);
@@ -130,4 +145,27 @@ image(img, 0, 0);
   // console.log(floor(0.186) % 360);
   console.log(index);
   
+  // for (i = 0; i =) {
+  
+  // }
+  
+  trafficArray[index] = trafficPerhour;
+  console.log(trafficArray);
+  energyArray[index] = energyPerhour;
+  console.log(energyArray);
+  
+  trafficTotal = trafficArray.reduce(getSum);
+  energyTotal = energyArray.reduce(getSum);
+  console.log(trafficTotal);
+  console.log(energyTotal);
+  
+  textSize(14);
+  colorMode(RGB, 255, 255, 255);
+  fill(255, 255, 255);
+  text('Kortrijk Belgium ' + '2019-10-01 ' + index + 'h', 20, 30);
+  text('Traffic hourly: ' + trafficPerhour + ' GB / h', 20, 50);
+  text('Traffic Total: ' + trafficTotal + ' GB', 20, 70);
+  text('Energy hourly: ' + energyPerhour + ' KWh / h', 20, 90);
+  text('Energy Total: ' + energyTotal + ' GB', 20, 110);
+
 }
