@@ -1,5 +1,8 @@
+var antenna = '4g';
+var sitedata = 'site_4g.json';
+var consodata = 'conso_4g.json';
 var img;
-var N = 30;
+var N = 60;
 var M = 60;
 var DT = 0.01;
 var DX;
@@ -26,8 +29,12 @@ var energyTotal = 0;
 var energyArray = [];
 
 function preload() {
-  data1 = loadJSON('site_4g.json');
-  data2 = loadJSON('conso_4g.json');
+  // site = 'site_' + antenna + '.json';
+  // console.log(site);
+  // console.log(conso);
+  data1 = loadJSON(sitedata);
+  data2 = loadJSON(consodata);
+  
   img = loadImage('Group.png');
 }
 
@@ -163,9 +170,10 @@ image(img, 0, 0);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
   text('Kortrijk Belgium ' + '2019-10-01 ' + index + 'h', 20, 30);
-  text('Traffic hourly: ' + trafficPerhour + ' GB / h', 20, 50);
-  text('Traffic Total: ' + trafficTotal + ' GB', 20, 70);
-  text('Energy hourly: ' + energyPerhour + ' KWh / h', 20, 90);
-  text('Energy Total: ' + energyTotal + ' GB', 20, 110);
+  text('Antenna: ' + antenna, 20, 50);
+  text('Traffic hourly: ' + trafficPerhour + ' GB / h', 20, 70);
+  text('Traffic Total: ' + trafficTotal + ' GB', 20, 90);
+  text('Energy hourly: ' + energyPerhour + ' KWh / h', 20, 110);
+  text('Energy Total: ' + energyTotal + ' GB', 20, 130);
 
 }
