@@ -1,8 +1,13 @@
+var city = 'Kortrijk';
+// var city = 'Brussels';
+var date = '2019-10-19';
 var antenna = '4g';
-var sitedata = 'site_4g.json';
-var consodata = 'conso_4g.json';
+var sitedata;
+var consodata;
+// var sitedata = 'Kortrijk_2019-10-01_site_4g.json';
+// var consodata = 'Kortrijk_2019-10-01_conso_4g.json';
 var img;
-var N = 60;
+var N;
 var M = 60;
 var DT = 0.01;
 var DX;
@@ -17,6 +22,15 @@ var locationy = [];
 var trafficall = [];
 var energyall = [];
 
+var siteRangeX1;
+var siteRangeX2;
+var siteRangeY1;
+var siteRangeY2;
+var reso;
+
+var tminMax = [];
+var eminMax = [];
+
 var inde = 0;
 var index;
 
@@ -29,13 +43,14 @@ var energyTotal = 0;
 var energyArray = [];
 
 function preload() {
-  // site = 'site_' + antenna + '.json';
-  // console.log(site);
+  sitedata = city + '_' + date + '_site_' + antenna + '.json';
+  consodata = city + '_' + date + '_conso_' + antenna + '.json';
+  // console.log(sitedata);
   // console.log(conso);
   data1 = loadJSON(sitedata);
   data2 = loadJSON(consodata);
   
-  img = loadImage('Group.png');
+  img = loadImage(city + '.png');
 }
 
 function getSum(total, num) {
@@ -48,15 +63,38 @@ function setup() {
   DX = 1.0 / N;
   // coef = DIFFUSE_COEF * DT / (DX * DX);
   coef = 0.2;
+
   // console.log("diffuse number: " + coef);
-  initialize();
+ 
   
+  if (city === 'Kortrijk') {
+      siteRangeX1 = 3.209877;
+      siteRangeX2 = 3.305424;
+      siteRangeY1 = 50.855198;
+      siteRangeY2 = 50.794894;
+      reso = 1;
+  } else if (city === 'Brussels') {
+      siteRangeX1 = 4.280566;
+      siteRangeX2 = 4.454363;
+      siteRangeY1 = 50.905324;
+      siteRangeY2 = 50.796123;
+      reso = 2;
+  }
+   N = 30*2*reso;
+  
+   initialize();
   
   var site = data1.sites;
   var conso = data2.siteConso;
+  tminMax = data2.trafficMinMax;
+  eminMax = data2.energyMiMax;
+  
+  console.log(tminMax);
+  console.log(eminMax);
+  
   for (var i = 0; i < site.length; i ++) {
-    var x = map(site[i].x, 3.209877, 3.305424, 0, width);
-    var y = map(site[i].y, 50.855198, 50.794894, 0, height);
+    var x = map(site[i].x, siteRangeX1, siteRangeX2, 0, width);
+    var y = map(site[i].y, siteRangeY1, siteRangeY2, 0, height);
     append(locationx, x);
     append(locationy, y);
   }
@@ -123,11 +161,11 @@ image(img, 0, 0);
     for (var y = 1; y < N + 1; y++) {
       for (var x = 1; x < N + 1; x++) {
         var d = sqrt(sq((x - 1) * w - locationx[i]) + sq((y - 1) * h - locationy[i]));
-        var s = 0.5 * pow(max(width - d*4, 0) / width, map(trafficall[i][index], 132, 0, 2, 20));
+        var s = 0.5 * pow(max(width - d*4*reso, 0) / width, map(trafficall[i][index], tminMax[1], tminMax[0], 2, 20));
         // var c = color(frameCount % 360, 100, 100);
         // var hue = round(map(energyall[i][index], 0.5, 1.6, 180, 360)) % 360;
         // console.log(hue);
-        var c = color(round(map(energyall[i][index], 0, 1.4, 180, 360)) % 360, 100, 100);
+        var c = color(round(map(energyall[i][index], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
         grid[y][x].add(createVector(red(c) * s, green(c) * s, blue(c) * s));
       }
     }
@@ -166,14 +204,16 @@ image(img, 0, 0);
   console.log(trafficTotal);
   console.log(energyTotal);
   
-  textSize(14);
+  textSize(12);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
-  text('Kortrijk Belgium ' + '2019-10-01 ' + index + 'h', 20, 30);
-  text('Antenna: ' + antenna, 20, 50);
-  text('Traffic hourly: ' + trafficPerhour + ' GB / h', 20, 70);
-  text('Traffic Total: ' + trafficTotal + ' GB', 20, 90);
-  text('Energy hourly: ' + energyPerhour + ' KWh / h', 20, 110);
-  text('Energy Total: ' + energyTotal + ' GB', 20, 130);
+  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + index + 'h', 20, 20);
+  text('Network: ' + antenna, 20, 40);
+  text('Data traffic hourly: ', 20, 60);
+  text('Hourly: ' + trafficPerhour + ' GB / h', 20, 75);
+  text('Total: ' + trafficTotal + ' GB', 20, 90);
+  text('Antenna energy consumption hourly: ' + energyPerhour + ' KWh / h', 20, 100);
+  text('Antenna energy consumption hourly: ' + energyPerhour + ' KWh / h', 20, 100);
+  text('Antenna energy consumption total: ' + energyTotal + ' KWh', 20, 120);
 
 }
