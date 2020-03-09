@@ -57,7 +57,7 @@ function preload() {
   data1 = loadJSON(sitedata);
   data2 = loadJSON(consodata);
   
-  img = loadImage(city + '.png');
+//  img = loadImage(city + '.png');
 }
 
 function getSum(total, num) {
@@ -154,7 +154,7 @@ function draw() {
   colorMode(RGB, 255, 255, 255);
   background(0);
   noStroke();
-image(img, 0, 0);
+//image(img, 0, 0);
   var w = width / N;
   var h = height / N;
   for (var y = 1; y < N + 1; y++) {
