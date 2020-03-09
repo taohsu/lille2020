@@ -102,7 +102,7 @@ function setup() {
       siteRangeY1 = 50.855198;
       siteRangeY2 = 50.794894;
       reso = 1;
-  } else if (city === 'Brussels') {
+  } else if (city === 'Bruxelles') {
       siteRangeX1 = 4.280566;
       siteRangeX2 = 4.454363;
       siteRangeY1 = 50.905324;
