@@ -92,7 +92,7 @@ function setup() {
       reso = 2;
   }
     
-   N = 30*2*reso;
+   N = 30*2;
   
    initialize();
   
