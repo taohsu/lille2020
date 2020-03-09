@@ -78,6 +78,7 @@ function setup() {
   dateformat = new Date(date); 
   console.log(dateformat);
   dayday = dateformat.getDay();
+  console.log(dayday);
   
   if (dayday == 0) {
       daydayday = 'Sunday';
