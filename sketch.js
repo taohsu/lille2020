@@ -79,19 +79,19 @@ function setup() {
   console.log(dateformat);
   dayday = dateformat.getDay();
   
-  if (dayday = 0) {
+  if (dayday == 0) {
       daydayday = 'Sunday';
-  } else if (dayday = 1) {
+  } else if (dayday == 1) {
       daydayday = 'Monday';
-  } else if (dayday = 2) {
+  } else if (dayday == 2) {
       daydayday = 'Tuesday';
-  } else if (dayday = 3) {
+  } else if (dayday == 3) {
       daydayday = 'Wednesday';
-  } else if (dayday = 4) {
+  } else if (dayday == 4) {
       daydayday = 'Thursday';
-  } else if (dayday = 5) {
+  } else if (dayday == 5) {
       daydayday = 'Friday';
-  } else if (dayday = 6) {
+  } else if (dayday == 6) {
       daydayday = 'Saturday';
   }
     
