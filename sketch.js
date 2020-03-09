@@ -50,8 +50,8 @@ var energyTotal = 0;
 var energyArray = [];
 
 function preload() {
-  sitedata = city + '_' + date + '_site_' + antenna + '.json';
-  consodata = city + '_' + date + '_conso_' + antenna + '.json';
+  sitedata = city + '_site_' + date + '_' + antenna + '.json';
+  consodata = city + '_conso_' + date + '_' + antenna + '.json';
   // console.log(sitedata);
   // console.log(conso);
   data1 = loadJSON(sitedata);
@@ -78,7 +78,7 @@ function setup() {
   console.log(dateformat);
   day = dateformat.getDay();
     
-  if (city === 'Kortrijk') {
+  if (city === 'Courtrai') {
       siteRangeX1 = 3.209877;
       siteRangeX2 = 3.305424;
       siteRangeY1 = 50.855198;
