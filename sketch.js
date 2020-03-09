@@ -2,7 +2,7 @@ var url = window.location.search;
 var city = getQueryVariable("city");
 var date = getQueryVariable("date"); 
 var dateformat;
-var day;
+var dayday;
 var antenna = getQueryVariable("antenna");
 //var city = 'Kortrijk';
 // var city = 'Brussels';
@@ -57,7 +57,7 @@ function preload() {
   data1 = loadJSON(sitedata);
   data2 = loadJSON(consodata);
   
-//  img = loadImage(city + '.png');
+  img = loadImage(city + '.png');
 }
 
 function getSum(total, num) {
@@ -76,7 +76,7 @@ function setup() {
   var d = date.replace(/([0-9]{2})\-([0-9]{2})\-([0-9]{4})/g, '$3-$2-$1');
   dateformat = new Date(date); 
   console.log(dateformat);
-  day = dateformat.getDay();
+  dayday = dateformat.getDay();
     
   if (city === 'Courtrai') {
       siteRangeX1 = 3.209877;
@@ -92,9 +92,6 @@ function setup() {
       reso = 2;
   }
     
-  if (date === '2019-09-30') {
-      day = 'Monday';
-  } else if (date === 'Brussels')
    N = 30*2*reso;
   
    initialize();
@@ -154,7 +151,7 @@ function draw() {
   colorMode(RGB, 255, 255, 255);
   background(0);
   noStroke();
-//image(img, 0, 0);
+image(img, 0, 0);
   var w = width / N;
   var h = height / N;
   for (var y = 1; y < N + 1; y++) {
@@ -222,7 +219,7 @@ function draw() {
   textSize(12);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
-  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + day + '' + index + 'h', 20, 20);
+  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + dayday + '' + index + 'h', 20, 20);
   text('Network: ' + antenna, 20, 40);
   text('Data traffic: ', 20, 60);
   text('Hourly: ' + trafficPerhour.toFixed(2) + ' GB / h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 20, 80);
