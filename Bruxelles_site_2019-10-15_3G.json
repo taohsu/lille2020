@@ -1,0 +1,1614 @@
+{
+  "sites": [
+    {
+      "siteName": "B30008-SCH_DE_ROUCK",
+      "x": 4.3732,
+      "y": 50.8722
+    },
+    {
+      "siteName": "B30053-STG_AV_FONSNY",
+      "x": 4.3372,
+      "y": 50.8354
+    },
+    {
+      "siteName": "B30023-MOL_ASBL_SPOR",
+      "x": 4.3237,
+      "y": 50.8621
+    },
+    {
+      "siteName": "B30215-CO_STATION_3G",
+      "x": 4.3593,
+      "y": 50.8475
+    },
+    {
+      "siteName": "B30140-NMBS_RING_STATION",
+      "x": 4.3248,
+      "y": 50.832
+    },
+    {
+      "siteName": "B30230-GALERIE_LOUISE_3G",
+      "x": 4.357,
+      "y": 50.8353
+    },
+    {
+      "siteName": "B30815-BXL_PARC_BRUSSELS",
+      "x": 4.37,
+      "y": 50.8456
+    },
+    {
+      "siteName": "B30042-METRO_ARTS_LOI_3G",
+      "x": 4.3692,
+      "y": 50.8454
+    },
+    {
+      "siteName": "B30031-PALAIS_DES_CONGRES",
+      "x": 4.3583,
+      "y": 50.8421
+    },
+    {
+      "siteName": "B30033-SCH_AV_CHAZAL",
+      "x": 4.3896,
+      "y": 50.8565
+    },
+    {
+      "siteName": "B30050-METRO_LEMONIER_3G",
+      "x": 4.3405,
+      "y": 50.84
+    },
+    {
+      "siteName": "B30170-STADIUM_ROI_BAU_W_3G",
+      "x": 4.3333,
+      "y": 50.8954
+    },
+    {
+      "siteName": "B31095-MOL_SINTMARIASTRAAT",
+      "x": 4.3417,
+      "y": 50.8548
+    },
+    {
+      "siteName": "B30105-SNCB_ATRIUM_3G",
+      "x": 4.3408,
+      "y": 50.8361
+    },
+    {
+      "siteName": "B31060-BXL_TOLLENAEREST",
+      "x": 4.3405,
+      "y": 50.8746
+    },
+    {
+      "siteName": "B31083-MOL_FERNANDBRUNFAUT",
+      "x": 4.3384,
+      "y": 50.8528
+    },
+    {
+      "siteName": "B32130-BXL_FRUITS_LEGUMES_2",
+      "x": 4.3739,
+      "y": 50.8774
+    },
+    {
+      "siteName": "B32004-BXL_COMEDIENS",
+      "x": 4.3577,
+      "y": 50.8504
+    },
+    {
+      "siteName": "B30358-GAN_CPAS",
+      "x": 4.3132,
+      "y": 50.8748
+    },
+    {
+      "siteName": "B30002-CPLAZA_HILTON_ROGIER",
+      "x": 4.3601,
+      "y": 50.8555
+    },
+    {
+      "siteName": "B30823-MOL_RUE_LESSINES",
+      "x": 4.3277,
+      "y": 50.8511
+    },
+    {
+      "siteName": "B30833-MOL_RUE_GOSSELIES",
+      "x": 4.3332,
+      "y": 50.8466
+    },
+    {
+      "siteName": "B30788-SCH_R_METSYS",
+      "x": 4.377,
+      "y": 50.8678
+    },
+    {
+      "siteName": "B31112-IXL_RENEDUBREUCQ",
+      "x": 4.3688,
+      "y": 50.8377
+    },
+    {
+      "siteName": "B30995-SCH_KONINGINNEPLEIN",
+      "x": 4.3699,
+      "y": 50.8592
+    },
+    {
+      "siteName": "B30171-STADIUM_ROI_BAU_N_3G",
+      "x": 4.333,
+      "y": 50.8966
+    },
+    {
+      "siteName": "B30011-KOE_R_DE_NECK",
+      "x": 4.3298,
+      "y": 50.8652
+    },
+    {
+      "siteName": "B30212-SNCB_SALIK_3G",
+      "x": 4.3317,
+      "y": 50.8342
+    },
+    {
+      "siteName": "B30068-MARRIOTT_BRUSSELS_3G",
+      "x": 4.349,
+      "y": 50.8487
+    },
+    {
+      "siteName": "B30366-BXL_EXPO_PALAIS5",
+      "x": 4.3373,
+      "y": 50.8996
+    },
+    {
+      "siteName": "B30002-BXL_HALLEPOORT_3G",
+      "x": 4.3432,
+      "y": 50.8342
+    },
+    {
+      "siteName": "B30999-MOL_ZEEPZIEDERIJST",
+      "x": 4.3331,
+      "y": 50.8521
+    },
+    {
+      "siteName": "B30273-HEYZEL3G_HALL3",
+      "x": 4.3378,
+      "y": 50.8991
+    },
+    {
+      "siteName": "B30048-MOL_TORREKENS",
+      "x": 4.3165,
+      "y": 50.8483
+    },
+    {
+      "siteName": "B30039-BXL_GALERIE_PAR",
+      "x": 4.3653,
+      "y": 50.8488
+    },
+    {
+      "siteName": "B30001-SNCB_SOUTH_STATION_U",
+      "x": 4.3355,
+      "y": 50.8364
+    },
+    {
+      "siteName": "B30811-BXL_HEEMBEEK",
+      "x": 4.3881,
+      "y": 50.8959
+    },
+    {
+      "siteName": "B30809-VIL_ARAUCARIA",
+      "x": 4.3632,
+      "y": 50.8954
+    },
+    {
+      "siteName": "B30231-ENGIE_HQ_BRUSSELS_3G",
+      "x": 4.3554,
+      "y": 50.8607
+    },
+    {
+      "siteName": "B31082-BXL_POINCARELAAN",
+      "x": 4.3371,
+      "y": 50.8394
+    },
+    {
+      "siteName": "B31009-BASILICE_KOCKELBERG",
+      "x": 4.3169,
+      "y": 50.8669
+    },
+    {
+      "siteName": "B32150-SCH_NOVARTIS",
+      "x": 4.3726,
+      "y": 50.8621
+    },
+    {
+      "siteName": "B30800-EC_SC11",
+      "x": 4.3713,
+      "y": 50.8416
+    },
+    {
+      "siteName": "B30002-JET_DE_SMET_2",
+      "x": 4.3314,
+      "y": 50.8774
+    },
+    {
+      "siteName": "B31115-SJO_BRAEMTSTRAAT",
+      "x": 4.3773,
+      "y": 50.8515
+    },
+    {
+      "siteName": "B30793-AND_ECOLE_ERA",
+      "x": 4.3226,
+      "y": 50.8422
+    },
+    {
+      "siteName": "B31045-AND_RAADSPLEIN",
+      "x": 4.3317,
+      "y": 50.8389
+    },
+    {
+      "siteName": "B32008-BXL_BOUCHERS",
+      "x": 4.3541,
+      "y": 50.8481
+    },
+    {
+      "siteName": "B30351-SCH_FOYER_SCHAE",
+      "x": 4.3627,
+      "y": 50.8594
+    },
+    {
+      "siteName": "B30223-REP_ESTONIA_EU_3G",
+      "x": 4.3698,
+      "y": 50.8436
+    },
+    {
+      "siteName": "B30043-BXL_FEDERAL",
+      "x": 4.3516,
+      "y": 50.8454
+    },
+    {
+      "siteName": "B30025-MOL_PISCINE",
+      "x": 4.3109,
+      "y": 50.8541
+    },
+    {
+      "siteName": "B30098-AND_R_DEMOSTHENE",
+      "x": 4.312,
+      "y": 50.843
+    },
+    {
+      "siteName": "B30100-BOTANIC_BUILDING_3G",
+      "x": 4.3619,
+      "y": 50.8564
+    },
+    {
+      "siteName": "B30575-AND_GOUNOT",
+      "x": 4.3009,
+      "y": 50.8308
+    },
+    {
+      "siteName": "B30786-AND_VAILLANCE",
+      "x": 4.3038,
+      "y": 50.8363
+    },
+    {
+      "siteName": "B30880-BXL_HOUBADESTROOPER",
+      "x": 4.3368,
+      "y": 50.8898
+    },
+    {
+      "siteName": "B32386-BXL_BD_ALBERT_II",
+      "x": 4.3562,
+      "y": 50.8594
+    },
+    {
+      "siteName": "B30029-BXL_CONSTRUCT",
+      "x": 4.3463,
+      "y": 50.855
+    },
+    {
+      "siteName": "B30012-MOL_VANDEN_BOGA",
+      "x": 4.3397,
+      "y": 50.8646
+    },
+    {
+      "siteName": "B30054-BXL_EVERS_2_8",
+      "x": 4.3486,
+      "y": 50.834
+    },
+    {
+      "siteName": "B30832-BXL_RUE_DIEUDONNE",
+      "x": 4.3438,
+      "y": 50.87
+    },
+    {
+      "siteName": "B30056-BXL_RUE_DES_ART",
+      "x": 4.3672,
+      "y": 50.842
+    },
+    {
+      "siteName": "B30031-SJO_ROYAL_CROWN",
+      "x": 4.3675,
+      "y": 50.8561
+    },
+    {
+      "siteName": "B30360-JET_GARAGE_BMW_AVOND",
+      "x": 4.3152,
+      "y": 50.8858
+    },
+    {
+      "siteName": "B30022-MOL_DE_SCHAMPHELEER",
+      "x": 4.3361,
+      "y": 50.8596
+    },
+    {
+      "siteName": "B31109-IXL_EENDRACHTSTRAAT",
+      "x": 4.3621,
+      "y": 50.8343
+    },
+    {
+      "siteName": "B30780-BXL_HOP_DES_E",
+      "x": 4.3289,
+      "y": 50.8886
+    },
+    {
+      "siteName": "B30371-BXL_NOH_CHEE_",
+      "x": 4.3883,
+      "y": 50.8909
+    },
+    {
+      "siteName": "B30024-MOL_MYRTES",
+      "x": 4.3047,
+      "y": 50.8596
+    },
+    {
+      "siteName": "B30018-SCH_DESCHANEL",
+      "x": 4.3798,
+      "y": 50.8614
+    },
+    {
+      "siteName": "B32439-LAK_STIENON",
+      "x": 4.3339,
+      "y": 50.8922
+    },
+    {
+      "siteName": "B30221-FED_DE_KAMER_3G",
+      "x": 4.3668,
+      "y": 50.848
+    },
+    {
+      "siteName": "B30136-REPRE_FRANCAISE_UE_3G",
+      "x": 4.3626,
+      "y": 50.8484
+    },
+    {
+      "siteName": "B30148-EGMONT_PALACE_3G",
+      "x": 4.3585,
+      "y": 50.8381
+    },
+    {
+      "siteName": "B30010-JET_MORANVILLE",
+      "x": 4.3322,
+      "y": 50.8692
+    },
+    {
+      "siteName": "B30057-METRO_DELACROIX_3G",
+      "x": 4.3235,
+      "y": 50.8457
+    },
+    {
+      "siteName": "B30219-IRIS_ACTIRIS_ASTRO_3G",
+      "x": 4.3696,
+      "y": 50.8512
+    },
+    {
+      "siteName": "B30781-JET_HIVB_STUD",
+      "x": 4.306,
+      "y": 50.8841
+    },
+    {
+      "siteName": "B32432-JET_LIEBRECHTLAAN",
+      "x": 4.3163,
+      "y": 50.8901
+    },
+    {
+      "siteName": "B32028-BXL_SQ_SAINCLETTE",
+      "x": 4.3478,
+      "y": 50.8588
+    },
+    {
+      "siteName": "B30052-AND_ELOY",
+      "x": 4.3272,
+      "y": 50.836
+    },
+    {
+      "siteName": "B31002-SCH_JOSAPHATSTRAAT",
+      "x": 4.3722,
+      "y": 50.857
+    },
+    {
+      "siteName": "B31099-BRU_MEIBOOMSTRAAT",
+      "x": 4.3611,
+      "y": 50.852
+    },
+    {
+      "siteName": "B30088-SNCB_RUE_BARA_3G",
+      "x": 4.3316,
+      "y": 50.8355
+    },
+    {
+      "siteName": "B30046-AND_CHEE_MONS_1",
+      "x": 4.3325,
+      "y": 50.8431
+    },
+    {
+      "siteName": "B30779-JET_R_ABBE_DE",
+      "x": 4.3221,
+      "y": 50.8771
+    },
+    {
+      "siteName": "B30361-BXL_JEAN_HEYM",
+      "x": 4.341,
+      "y": 50.8848
+    },
+    {
+      "siteName": "B30051-METRO_ZUIDSTATION_3G",
+      "x": 4.3369,
+      "y": 50.8366
+    },
+    {
+      "siteName": "B31055-MOL_NICOLASDOYENST",
+      "x": 4.3206,
+      "y": 50.8491
+    },
+    {
+      "siteName": "B31041-BXL_ANTWERPSESTWG",
+      "x": 4.3572,
+      "y": 50.8631
+    },
+    {
+      "siteName": "B30060-IXL_RUE_CRESPEL",
+      "x": 4.358,
+      "y": 50.8347
+    },
+    {
+      "siteName": "B30796-BXL_CITE_MODELE_11",
+      "x": 4.3228,
+      "y": 50.8971
+    },
+    {
+      "siteName": "B31078-BRU_CHARLEROISE",
+      "x": 4.3567,
+      "y": 50.8331
+    },
+    {
+      "siteName": "B30827-BXL_AVENUE_CHARLES_Q",
+      "x": 4.3014,
+      "y": 50.8717
+    },
+    {
+      "siteName": "B30046-METRO_NOORDSTATION_3G",
+      "x": 4.3606,
+      "y": 50.8602
+    },
+    {
+      "siteName": "B30383-EVE_RUE_DE_BOEK",
+      "x": 4.3996,
+      "y": 50.8674
+    },
+    {
+      "siteName": "B30047-MOL_ALU_SUISSE",
+      "x": 4.3283,
+      "y": 50.8486
+    },
+    {
+      "siteName": "B30012-BXL_TRADE_MARKT_3G",
+      "x": 4.3429,
+      "y": 50.8978
+    },
+    {
+      "siteName": "B32339-BXL_RUE_DU_VAUTOUR",
+      "x": 4.3438,
+      "y": 50.8447
+    },
+    {
+      "siteName": "B30203-IBGE_THURNANDTAXI_3G",
+      "x": 4.3491,
+      "y": 50.8656
+    },
+    {
+      "siteName": "B30044-BXL_STALINGRAD",
+      "x": 4.3451,
+      "y": 50.8418
+    },
+    {
+      "siteName": "B30084-MVG_MARTELAARSPLEI_3G",
+      "x": 4.3568,
+      "y": 50.8522
+    },
+    {
+      "siteName": "B30160-BXL_BD_REGENT",
+      "x": 4.3618,
+      "y": 50.8392
+    },
+    {
+      "siteName": "B30792-SCHAERBEEK_ST",
+      "x": 4.3699,
+      "y": 50.8658
+    },
+    {
+      "siteName": "B30801-GARE_DU_MIDI",
+      "x": 4.343,
+      "y": 50.8362
+    },
+    {
+      "siteName": "B30014-CONGRES_STATION_3G",
+      "x": 4.3619,
+      "y": 50.8521
+    },
+    {
+      "siteName": "B30368-BXL_PAGODES",
+      "x": 4.3714,
+      "y": 50.8922
+    },
+    {
+      "siteName": "B30005-LOUISE_TUNNEL_3G",
+      "x": 4.354,
+      "y": 50.8358
+    },
+    {
+      "siteName": "B32011-BRU_CH_LOUVAIN",
+      "x": 4.3845,
+      "y": 50.851
+    },
+    {
+      "siteName": "B30808-SCH_PLACE_REINE",
+      "x": 4.364,
+      "y": 50.8614
+    },
+    {
+      "siteName": "B30037-BXL_CLOVIS",
+      "x": 4.3821,
+      "y": 50.8478
+    },
+    {
+      "siteName": "B30125-MVG_ELLIPS_3G",
+      "x": 4.3593,
+      "y": 50.8629
+    },
+    {
+      "siteName": "B30224-VO_HERMAN_TEIRLINCK_3G",
+      "x": 4.3504,
+      "y": 50.8665
+    },
+    {
+      "siteName": "B30042-BXL_R_POISSONNIERES",
+      "x": 4.3484,
+      "y": 50.8493
+    },
+    {
+      "siteName": "B30225-M_TEAM_TAMARIS_3G",
+      "x": 4.3065,
+      "y": 50.8543
+    },
+    {
+      "siteName": "B30048-METRO_BOURSE_3G",
+      "x": 4.3491,
+      "y": 50.8483
+    },
+    {
+      "siteName": "B30049-MOL_R_DE_LA_B_AU_BOIS",
+      "x": 4.3029,
+      "y": 50.8492
+    },
+    {
+      "siteName": "B30354-BER_HOP_FRCS_",
+      "x": 4.3063,
+      "y": 50.8673
+    },
+    {
+      "siteName": "B30045-BXL_ABATTOIR",
+      "x": 4.3434,
+      "y": 50.8477
+    },
+    {
+      "siteName": "B31004-MOL_OPZICHTERSTRAAT",
+      "x": 4.3419,
+      "y": 50.8609
+    },
+    {
+      "siteName": "B30004-BXL_MICR_LEOPOLD2_3G",
+      "x": 4.3279,
+      "y": 50.8642
+    },
+    {
+      "siteName": "B30158-BNP_KANSELARIJ_3G",
+      "x": 4.3611,
+      "y": 50.8465
+    },
+    {
+      "siteName": "B30233-PALAIS_DE_BOZAR_3G",
+      "x": 4.3598,
+      "y": 50.8437
+    },
+    {
+      "siteName": "B30032-SCH_RESIDENCE_D",
+      "x": 4.3775,
+      "y": 50.8551
+    },
+    {
+      "siteName": "B30030-HOTEL_DOMINICA_BXL_3G",
+      "x": 4.3549,
+      "y": 50.8494
+    },
+    {
+      "siteName": "B30041-METRO_MAELBEEK_3G",
+      "x": 4.3731,
+      "y": 50.8446
+    },
+    {
+      "siteName": "B30783-SCH_R_F_SEVER",
+      "x": 4.389,
+      "y": 50.8759
+    },
+    {
+      "siteName": "B30045-METRO_BOTANIQUE_3G",
+      "x": 4.3651,
+      "y": 50.8534
+    },
+    {
+      "siteName": "B30987-BRU_RUE_MABILLE",
+      "x": 4.3428,
+      "y": 50.8806
+    },
+    {
+      "siteName": "B30034-SCH_RES_WAHIS",
+      "x": 4.3989,
+      "y": 50.8559
+    },
+    {
+      "siteName": "B30127-EC_SPA2_3G",
+      "x": 4.3737,
+      "y": 50.8446
+    },
+    {
+      "siteName": "B31085-BXL_ESPLANADESTRAAT",
+      "x": 4.3674,
+      "y": 50.8396
+    },
+    {
+      "siteName": "B30030-BXL_MANATHAN_BD",
+      "x": 4.3567,
+      "y": 50.8547
+    },
+    {
+      "siteName": "B30074-FERRARIS_BUILDING_3G",
+      "x": 4.3557,
+      "y": 50.8592
+    },
+    {
+      "siteName": "B32490-MOL_VAN_HEMELIJCK",
+      "x": 4.3268,
+      "y": 50.8536
+    },
+    {
+      "siteName": "B30865-BXL_CHRYSANTENSTRAAT",
+      "x": 4.349,
+      "y": 50.8812
+    },
+    {
+      "siteName": "B31103-SJO_GRENSSTRAAT",
+      "x": 4.3709,
+      "y": 50.8542
+    },
+    {
+      "siteName": "B30073-BASTION_TOWER",
+      "x": 4.3629,
+      "y": 50.8383
+    },
+    {
+      "siteName": "B30052-METRO_MUNT_HOF_3G",
+      "x": 4.3494,
+      "y": 50.8339
+    },
+    {
+      "siteName": "B30004-JET_AV_DE_LAEKEN_36",
+      "x": 4.3239,
+      "y": 50.8712
+    },
+    {
+      "siteName": "B30822-BRU_AVENUE_DE_LA_REI",
+      "x": 4.3548,
+      "y": 50.8768
+    },
+    {
+      "siteName": "B30026-METRO_BOCKSTAEL",
+      "x": 4.3476,
+      "y": 50.8799
+    },
+    {
+      "siteName": "B30816-STG_HALLEPOORT",
+      "x": 4.343,
+      "y": 50.8321
+    },
+    {
+      "siteName": "B31096-BXL_KARMELIETENST",
+      "x": 4.3552,
+      "y": 50.8402
+    },
+    {
+      "siteName": "B30365-BXL_STROOPER",
+      "x": 4.3298,
+      "y": 50.8956
+    },
+    {
+      "siteName": "B30934-SCH_SAINT_DOMINIQUE",
+      "x": 4.386,
+      "y": 50.8663
+    },
+    {
+      "siteName": "B30021-METRO_ZWARTE_VIJVERS",
+      "x": 4.3332,
+      "y": 50.8572
+    },
+    {
+      "siteName": "B31075-MOL_HAECKSTRAAT",
+      "x": 4.3341,
+      "y": 50.8641
+    },
+    {
+      "siteName": "B30061-BXL_GALERIE",
+      "x": 4.3634,
+      "y": 50.8372
+    },
+    {
+      "siteName": "B31035-MOL_METTEWIELAAN",
+      "x": 4.3127,
+      "y": 50.859
+    },
+    {
+      "siteName": "B30004-HILTON_3G",
+      "x": 4.3574,
+      "y": 50.8377
+    },
+    {
+      "siteName": "B30435-MOL_CHEE_GAND",
+      "x": 4.3299,
+      "y": 50.8568
+    },
+    {
+      "siteName": "B30154-BNP_BOREAL_BUILDING_3G",
+      "x": 4.359,
+      "y": 50.8586
+    },
+    {
+      "siteName": "B30208-CLINIQUE_ST_JEAN",
+      "x": 4.3597,
+      "y": 50.8539
+    },
+    {
+      "siteName": "B32007-BXL_MONNAIE_HE",
+      "x": 4.3539,
+      "y": 50.8505
+    },
+    {
+      "siteName": "B30023-METRO_SIMONIS_3G",
+      "x": 4.3307,
+      "y": 50.8632
+    },
+    {
+      "siteName": "B30040-BXL_EHSAL_STORM",
+      "x": 4.3575,
+      "y": 50.8488
+    },
+    {
+      "siteName": "B30029-METRO_HALLEPOORT_3G",
+      "x": 4.3435,
+      "y": 50.8332
+    },
+    {
+      "siteName": "B30176-VLO_KAB_MARTELAAR_3G",
+      "x": 4.356,
+      "y": 50.8512
+    },
+    {
+      "siteName": "B31044-BXL_VANGULICKSTRAAT",
+      "x": 4.3618,
+      "y": 50.8728
+    },
+    {
+      "siteName": "B30036-SCH_RES_MARCHAL",
+      "x": 4.3958,
+      "y": 50.8513
+    },
+    {
+      "siteName": "B30573-AND_FOYER",
+      "x": 4.3131,
+      "y": 50.8336
+    },
+    {
+      "siteName": "B30820-BXL_RUE_DES_CONFEDER",
+      "x": 4.3896,
+      "y": 50.8494
+    },
+    {
+      "siteName": "B30799-BXL_PORTE_HALLE",
+      "x": 4.338,
+      "y": 50.8315
+    },
+    {
+      "siteName": "B30038-SJO_RUE_DU_VALLON",
+      "x": 4.3725,
+      "y": 50.8489
+    },
+    {
+      "siteName": "B31064-BRU_STAPELHUISSTRAAT",
+      "x": 4.3525,
+      "y": 50.8685
+    },
+    {
+      "siteName": "B30207-ZENITH_TOWER_3G",
+      "x": 4.359,
+      "y": 50.8638
+    },
+    {
+      "siteName": "B31062-MOL_MELPOMENESTRAAT",
+      "x": 4.3188,
+      "y": 50.8576
+    },
+    {
+      "siteName": "B30220-AXA_REGENTLAAN_3G",
+      "x": 4.3627,
+      "y": 50.8397
+    },
+    {
+      "siteName": "B31047-SCH_HAACHTSESTEENWEG",
+      "x": 4.3843,
+      "y": 50.8689
+    },
+    {
+      "siteName": "B30032-BXL_METRO_VEEWEYDE_3G",
+      "x": 4.3001,
+      "y": 50.8283
+    },
+    {
+      "siteName": "B30009-SHERATON_TULIPP_IN_3G",
+      "x": 4.3577,
+      "y": 50.856
+    },
+    {
+      "siteName": "B30138-EC_JOSPEH_II_3G",
+      "x": 4.373,
+      "y": 50.8458
+    },
+    {
+      "siteName": "B30054-TOISON_DOR_3G",
+      "x": 4.3603,
+      "y": 50.8367
+    },
+    {
+      "siteName": "B32006-BXL_FRIPPIERS",
+      "x": 4.3518,
+      "y": 50.8484
+    },
+    {
+      "siteName": "B30041-BXL_SHELL",
+      "x": 4.3585,
+      "y": 50.8458
+    },
+    {
+      "siteName": "B30859-BXL_DEWANDSTRAAT",
+      "x": 4.3584,
+      "y": 50.8978
+    },
+    {
+      "siteName": "B30905-JET_AV_DE_GREEF",
+      "x": 4.3336,
+      "y": 50.8848
+    },
+    {
+      "siteName": "B30150-SENAT_THE_BELGIUM_3G",
+      "x": 4.3652,
+      "y": 50.8469
+    },
+    {
+      "siteName": "B30055-METRO_TROON_3G",
+      "x": 4.3653,
+      "y": 50.8409
+    },
+    {
+      "siteName": "B30079-ANC_BELGIQUE_NODEB_3G",
+      "x": 4.3487,
+      "y": 50.8474
+    },
+    {
+      "siteName": "B32075-AND_PLANTIN",
+      "x": 4.3373,
+      "y": 50.8437
+    },
+    {
+      "siteName": "B30106-NMBS_ZENNEW_DELTA_3G",
+      "x": 4.3312,
+      "y": 50.8329
+    },
+    {
+      "siteName": "B32043-SJO_ROYAL_CROWN",
+      "x": 4.3664,
+      "y": 50.8552
+    },
+    {
+      "siteName": "B30784-SCH_VYTTERS",
+      "x": 4.3809,
+      "y": 50.8722
+    },
+    {
+      "siteName": "B30013-CENTRAL_STATION_3G",
+      "x": 4.3573,
+      "y": 50.8455
+    },
+    {
+      "siteName": "B32049-MOL_R_JULES_VIEUJANT",
+      "x": 4.3215,
+      "y": 50.8545
+    },
+    {
+      "siteName": "B30006-BXL_BRIQUETTE",
+      "x": 4.3514,
+      "y": 50.8733
+    },
+    {
+      "siteName": "B30043-METRO_PARK_3G",
+      "x": 4.3625,
+      "y": 50.8463
+    },
+    {
+      "siteName": "B30178-VLO_KAB_CONSCIENCE_3G",
+      "x": 4.3566,
+      "y": 50.8588
+    },
+    {
+      "siteName": "B30053-METRO_LOUIZA_3G",
+      "x": 4.3546,
+      "y": 50.8356
+    },
+    {
+      "siteName": "B32314-MOL_HOLLEVOET",
+      "x": 4.3373,
+      "y": 50.8655
+    },
+    {
+      "siteName": "B32240-BXL_RUE_HAUTE_298",
+      "x": 4.3473,
+      "y": 50.8355
+    },
+    {
+      "siteName": "B30049-METRO_ANNESSENS_3G",
+      "x": 4.344,
+      "y": 50.8434
+    },
+    {
+      "siteName": "B30095-BXL_BROUCKERE_COCA",
+      "x": 4.3534,
+      "y": 50.8521
+    },
+    {
+      "siteName": "B30115-NMBS_GARE_DU_NORD_3G",
+      "x": 4.3599,
+      "y": 50.8604
+    },
+    {
+      "siteName": "B30803-MOL_WOESTE",
+      "x": 4.3347,
+      "y": 50.8732
+    },
+    {
+      "siteName": "B30218-SRB",
+      "x": 4.3622,
+      "y": 50.8478
+    },
+    {
+      "siteName": "B32076-AND_BROGNIEZ",
+      "x": 4.3383,
+      "y": 50.8424
+    },
+    {
+      "siteName": "B31006-BXL_THYSVANHAMSTRAAT",
+      "x": 4.3456,
+      "y": 50.8767
+    },
+    {
+      "siteName": "B30017-SCH_LATINIS",
+      "x": 4.3921,
+      "y": 50.8622
+    },
+    {
+      "siteName": "B30011-METRO_CENTRAL_STAT_3G",
+      "x": 4.3572,
+      "y": 50.8455
+    },
+    {
+      "siteName": "B30020-METRO_DE_BROUCKERE_3G",
+      "x": 4.3518,
+      "y": 50.8503
+    },
+    {
+      "siteName": "B30041-CITY_II_3G",
+      "x": 4.3584,
+      "y": 50.8549
+    },
+    {
+      "siteName": "B30146-STIB_RUE_ROYALE_3G",
+      "x": 4.3622,
+      "y": 50.847
+    },
+    {
+      "siteName": "B30382-SCH_STIJNSTEURELS",
+      "x": 4.3915,
+      "y": 50.8727
+    },
+    {
+      "siteName": "B30200-TOUR_ET_TAXIS_3G",
+      "x": 4.3473,
+      "y": 50.865
+    },
+    {
+      "siteName": "B30028-METRO_BAUDOUIN_3G",
+      "x": 4.3284,
+      "y": 50.8965
+    },
+    {
+      "siteName": "B30211-NMBS_LABO_SCHAARB_3G",
+      "x": 4.3804,
+      "y": 50.8785
+    },
+    {
+      "siteName": "B30014-SCH_PROGRES",
+      "x": 4.3631,
+      "y": 50.8665
+    },
+    {
+      "siteName": "B31031-SCH_ARTANSTRAAT",
+      "x": 4.385,
+      "y": 50.855
+    },
+    {
+      "siteName": "B30051-AND_ANDERLECHTX",
+      "x": 4.3168,
+      "y": 50.8368
+    },
+    {
+      "siteName": "B30044-METRO_MADOU_3G",
+      "x": 4.3684,
+      "y": 50.8493
+    },
+    {
+      "siteName": "B30236-DEUTSCHE_BANK_3G",
+      "x": 4.3637,
+      "y": 50.8388
+    },
+    {
+      "siteName": "B30152-SNCB_S_CITY_3G",
+      "x": 4.3382,
+      "y": 50.8356
+    },
+    {
+      "siteName": "B30047-METRO_ROGIER_3G",
+      "x": 4.3582,
+      "y": 50.8552
+    },
+    {
+      "siteName": "B30001-JET_AVENUE_EXPOSITION",
+      "x": 4.3074,
+      "y": 50.8908
+    },
+    {
+      "siteName": "B30054-METRO_NAAMSEPOORT_3G",
+      "x": 4.3613,
+      "y": 50.8388
+    },
+    {
+      "siteName": "B30828-GAN_AVENUE_DE_JETTE",
+      "x": 4.3218,
+      "y": 50.8743
+    },
+    {
+      "siteName": "B30007-MERIDIEN",
+      "x": 4.3559,
+      "y": 50.8459
+    },
+    {
+      "siteName": "B30056-METRO_CLEMENCEAU_3G",
+      "x": 4.3309,
+      "y": 50.8422
+    },
+    {
+      "siteName": "B30108-METROPOLE_3G",
+      "x": 4.3534,
+      "y": 50.8512
+    },
+    {
+      "siteName": "B30147-ANSPACH_SHOPPING_3G",
+      "x": 4.3507,
+      "y": 50.8489
+    },
+    {
+      "siteName": "B32013-BXL_RUE_HAUTE",
+      "x": 4.3503,
+      "y": 50.8386
+    },
+    {
+      "siteName": "B30177-VLO_KAB_ARENBERG_3G",
+      "x": 4.3562,
+      "y": 50.8481
+    },
+    {
+      "siteName": "B32160-STG_HOECHST",
+      "x": 4.3556,
+      "y": 50.8294
+    },
+    {
+      "siteName": "B30082-IXL_DARWIN",
+      "x": 4.353,
+      "y": 50.818
+    },
+    {
+      "siteName": "B30087-UCC_RUE_COVEL",
+      "x": 4.3579,
+      "y": 50.8107
+    },
+    {
+      "siteName": "B31037-BXL_LESBROUSSARTST",
+      "x": 4.3676,
+      "y": 50.8275
+    },
+    {
+      "siteName": "B30005-RADISSON_SAS_EUROPE",
+      "x": 4.3725,
+      "y": 50.8373
+    },
+    {
+      "siteName": "B30063-BXL_NERVIENS_35",
+      "x": 4.3866,
+      "y": 50.8391
+    },
+    {
+      "siteName": "B30077-FOR_ALSEMBERG_LBS",
+      "x": 4.3423,
+      "y": 50.8208
+    },
+    {
+      "siteName": "B30062-NMBS_JOSAPHAT_ARCHI_3G",
+      "x": 4.384,
+      "y": 50.8427
+    },
+    {
+      "siteName": "B30078-FOR_VAN_HAELEN",
+      "x": 4.331,
+      "y": 50.8226
+    },
+    {
+      "siteName": "B30129-IXL_RUE_PREVO",
+      "x": 4.3586,
+      "y": 50.8221
+    },
+    {
+      "siteName": "B30073-ETT_RUE_PERVYSE",
+      "x": 4.3983,
+      "y": 50.8299
+    },
+    {
+      "siteName": "B30558-BXL_AV_DU_BRESIL",
+      "x": 4.3893,
+      "y": 50.8032
+    },
+    {
+      "siteName": "B30092-IXL_COURONNE",
+      "x": 4.39,
+      "y": 50.8212
+    },
+    {
+      "siteName": "B30579-AND_COURIER_1",
+      "x": 4.3038,
+      "y": 50.8136
+    },
+    {
+      "siteName": "B30079-IXL_RUE_ROFFIAEN",
+      "x": 4.3821,
+      "y": 50.8208
+    },
+    {
+      "siteName": "B30326-UCC_RUE_VANDERKINDERE",
+      "x": 4.3527,
+      "y": 50.8139
+    },
+    {
+      "siteName": "B32089-UCC_JDELENS_AV_DE_FRE",
+      "x": 4.3607,
+      "y": 50.8035
+    },
+    {
+      "siteName": "B30064-IXL_RUE_DU_VIAD",
+      "x": 4.3705,
+      "y": 50.8342
+    },
+    {
+      "siteName": "B30020-EUROPEAN_COUNCIL",
+      "x": 4.381,
+      "y": 50.8411
+    },
+    {
+      "siteName": "B30008-EUROPEAN_PARLIAMENT",
+      "x": 4.375,
+      "y": 50.8387
+    },
+    {
+      "siteName": "B30071-IXL_GRAY_COURON",
+      "x": 4.3773,
+      "y": 50.8313
+    },
+    {
+      "siteName": "B30074-ETT_R_DE_HAERNE",
+      "x": 4.3877,
+      "y": 50.8275
+    },
+    {
+      "siteName": "B30577-AND_GARE_PETITE_ILE",
+      "x": 4.3195,
+      "y": 50.826
+    },
+    {
+      "siteName": "B30089-UCC_SQUAREMARLOW4",
+      "x": 4.3411,
+      "y": 50.8017
+    },
+    {
+      "siteName": "B30213-IXL_AV_MACAU",
+      "x": 4.3768,
+      "y": 50.8261
+    },
+    {
+      "siteName": "B30216-EUROPA_BUILDING_3G",
+      "x": 4.3801,
+      "y": 50.8424
+    },
+    {
+      "siteName": "B30791-RUE_JORDAENS",
+      "x": 4.3664,
+      "y": 50.8217
+    },
+    {
+      "siteName": "B30006-SOFITEL_EUROPE",
+      "x": 4.3808,
+      "y": 50.8378
+    },
+    {
+      "siteName": "B30101-FOR_FOYER_FORESTOIS",
+      "x": 4.3158,
+      "y": 50.8035
+    },
+    {
+      "siteName": "B30126-EUROPE_PARL_D4_D5_3G",
+      "x": 4.3734,
+      "y": 50.8391
+    },
+    {
+      "siteName": "B30080-UCC_AV_LOUISE",
+      "x": 4.371,
+      "y": 50.8172
+    },
+    {
+      "siteName": "B30081-UCC_PLACE_D_AREZZO",
+      "x": 4.3603,
+      "y": 50.8162
+    },
+    {
+      "siteName": "B30067-FOR_RESIDENCE_FICLENT",
+      "x": 4.331,
+      "y": 50.8275
+    },
+    {
+      "siteName": "B30105-FOR_ARMEE_TOURIJ",
+      "x": 4.3128,
+      "y": 50.8096
+    },
+    {
+      "siteName": "B30885-UCC_DE_FRELAAN",
+      "x": 4.368,
+      "y": 50.8051
+    },
+    {
+      "siteName": "B32050-IXL_FERNAND_COCQ",
+      "x": 4.3661,
+      "y": 50.8338
+    },
+    {
+      "siteName": "B30804-UCC_PLACE_VANDERKIND",
+      "x": 4.3471,
+      "y": 50.8129
+    },
+    {
+      "siteName": "B30807-STG_CHAUSSEE_CHARLER",
+      "x": 4.3556,
+      "y": 50.8262
+    },
+    {
+      "siteName": "B30065-ETT_RUE_CHEMINEE",
+      "x": 4.3832,
+      "y": 50.8358
+    },
+    {
+      "siteName": "B30057-BXL_EUROPA_HOTE",
+      "x": 4.3755,
+      "y": 50.844
+    },
+    {
+      "siteName": "B30072-ETT_NOVEMBRE",
+      "x": 4.3926,
+      "y": 50.8331
+    },
+    {
+      "siteName": "B32253-UCC_ELISABETH",
+      "x": 4.3726,
+      "y": 50.8062
+    },
+    {
+      "siteName": "B30102-UCC_AV_DU_GLOBE",
+      "x": 4.3279,
+      "y": 50.8058
+    },
+    {
+      "siteName": "B30161-HOTEL_THON_BRU_3G",
+      "x": 4.3751,
+      "y": 50.844
+    },
+    {
+      "siteName": "B30068-STG_CHEE_WATERL",
+      "x": 4.3428,
+      "y": 50.8275
+    },
+    {
+      "siteName": "B30088-UCC_MONTJOIE",
+      "x": 4.3677,
+      "y": 50.8103
+    },
+    {
+      "siteName": "B32281-ETT_AV_NOUVELLE",
+      "x": 4.3859,
+      "y": 50.8258
+    },
+    {
+      "siteName": "B30051-DORINT_BRUSSELS_3G",
+      "x": 4.383,
+      "y": 50.8448
+    },
+    {
+      "siteName": "B30889-BRU_LOI_VERONESE",
+      "x": 4.3857,
+      "y": 50.8418
+    },
+    {
+      "siteName": "B30113-BXL_CE_BREYDEL_3G",
+      "x": 4.3848,
+      "y": 50.8399
+    },
+    {
+      "siteName": "B30935-BXL_PAULHEGERLAAN",
+      "x": 4.3876,
+      "y": 50.8155
+    },
+    {
+      "siteName": "B30997-IXL_VLEURGATSESTWG",
+      "x": 4.3699,
+      "y": 50.8239
+    },
+    {
+      "siteName": "B30062-BXL_MUSEE",
+      "x": 4.3763,
+      "y": 50.837
+    },
+    {
+      "siteName": "B30059-ETT_CLIN_ST_MIC",
+      "x": 4.3991,
+      "y": 50.8428
+    },
+    {
+      "siteName": "B30071-ATRIUM_EU_PARLIAM_3G",
+      "x": 4.375,
+      "y": 50.8404
+    },
+    {
+      "siteName": "B30003-CONRAD_HOTEL_3G",
+      "x": 4.3578,
+      "y": 50.8324
+    },
+    {
+      "siteName": "B31036-STG_RUE_AFRICAINE",
+      "x": 4.354,
+      "y": 50.8224
+    },
+    {
+      "siteName": "B30621-WAT_RUE_BRILLANT",
+      "x": 4.3995,
+      "y": 50.8139
+    },
+    {
+      "siteName": "B31081-BXL_LOUIZALAAN",
+      "x": 4.359,
+      "y": 50.8314
+    },
+    {
+      "siteName": "B30118-VW_PRA_3G",
+      "x": 4.3077,
+      "y": 50.805
+    },
+    {
+      "siteName": "B30578-AND_QUAI",
+      "x": 4.304,
+      "y": 50.8208
+    },
+    {
+      "siteName": "B30144-AUDI_BUILDING_A_RRU_3G",
+      "x": 4.3206,
+      "y": 50.8164
+    },
+    {
+      "siteName": "B32095-BXL_STEVIN_ARCHIMEDE",
+      "x": 4.384,
+      "y": 50.8441
+    },
+    {
+      "siteName": "B30569-IXL_IXELLE",
+      "x": 4.3977,
+      "y": 50.8201
+    },
+    {
+      "siteName": "B30086-UCC_VANDEWIELE",
+      "x": 4.3436,
+      "y": 50.8105
+    },
+    {
+      "siteName": "B30887-BXL_JOHANNALAAN",
+      "x": 4.378,
+      "y": 50.8142
+    },
+    {
+      "siteName": "B30085-FOR_BRAECKELEER",
+      "x": 4.3326,
+      "y": 50.8119
+    },
+    {
+      "siteName": "B30274-ETT_BERLAYMONT",
+      "x": 4.3827,
+      "y": 50.8436
+    },
+    {
+      "siteName": "B30058-BXL_KORTENBERGH",
+      "x": 4.3903,
+      "y": 50.8451
+    },
+    {
+      "siteName": "B30845-VOR_GOIDSNOVENLAAN",
+      "x": 4.3385,
+      "y": 50.813
+    },
+    {
+      "siteName": "B30009-BXL_SCHUMAN_3G",
+      "x": 4.3818,
+      "y": 50.8422
+    },
+    {
+      "siteName": "B30826-FOR_ALTITUDE_CENT",
+      "x": 4.3375,
+      "y": 50.817
+    },
+    {
+      "siteName": "B31026-IXL_BROUWERIJSTRAAT",
+      "x": 4.3738,
+      "y": 50.8278
+    },
+    {
+      "siteName": "B30825-WAT_RUE_DES_TOURISTE",
+      "x": 4.397,
+      "y": 50.8066
+    },
+    {
+      "siteName": "B30818-IXL_PLACE_ALBERT_II",
+      "x": 4.3802,
+      "y": 50.8244
+    },
+    {
+      "siteName": "B30076-STG_MDB",
+      "x": 4.3496,
+      "y": 50.8211
+    },
+    {
+      "siteName": "B30137-EC_VERVIENS_3G",
+      "x": 4.3906,
+      "y": 50.8384
+    },
+    {
+      "siteName": "B30030-BXL_METRO_ALBERT_3G",
+      "x": 4.3424,
+      "y": 50.8215
+    },
+    {
+      "siteName": "B30070-IXL_R_LONGUE_HAIE",
+      "x": 4.3639,
+      "y": 50.8301
+    },
+    {
+      "siteName": "B30550-BXL_AVE_DE_L_OREE_20",
+      "x": 4.3851,
+      "y": 50.8098
+    },
+    {
+      "siteName": "B30104-FOR_BD_2E_ARMEE_BRIT",
+      "x": 4.319,
+      "y": 50.8155
+    },
+    {
+      "siteName": "B30003-NMBS_PARLIAMENT",
+      "x": 4.3736,
+      "y": 50.8378
+    },
+    {
+      "siteName": "B30789-FOR_ROYALE_UN",
+      "x": 4.3278,
+      "y": 50.8187
+    },
+    {
+      "siteName": "B30069-STG_MORICHAR",
+      "x": 4.349,
+      "y": 50.8266
+    },
+    {
+      "siteName": "B30015-JUBELPARK_3G",
+      "x": 4.3943,
+      "y": 50.8403
+    },
+    {
+      "siteName": "B30205-AUDI_VORST_L8_L3_4_3G",
+      "x": 4.317,
+      "y": 50.8148
+    },
+    {
+      "siteName": "B31034-STG_VILLALAAN",
+      "x": 4.3351,
+      "y": 50.8245
+    },
+    {
+      "siteName": "B30039-METRO_MELRODE_3G",
+      "x": 4.3988,
+      "y": 50.8392
+    },
+    {
+      "siteName": "B30110-FLAGEY_3G",
+      "x": 4.3728,
+      "y": 50.8272
+    },
+    {
+      "siteName": "B30083-FOR_HOP_MOLIE",
+      "x": 4.3425,
+      "y": 50.8162
+    },
+    {
+      "siteName": "B30213-CHIREC_DELTA_HOSPI_3G",
+      "x": 4.3994,
+      "y": 50.8165
+    },
+    {
+      "siteName": "B30040-METRO_SCHUMAN_3G",
+      "x": 4.3775,
+      "y": 50.8436
+    },
+    {
+      "siteName": "B30035-NMBS_SCHUMAN_3G",
+      "x": 4.3802,
+      "y": 50.843
+    },
+    {
+      "siteName": "B30169-VORST_NATIONAAL_3G",
+      "x": 4.3261,
+      "y": 50.8098
+    },
+    {
+      "siteName": "B30013-ETT_CE_BORSCHETTE_3G",
+      "x": 4.3814,
+      "y": 50.8381
+    },
+    {
+      "siteName": "B30128-LEX_EUROPE_BUILD_3G",
+      "x": 4.3793,
+      "y": 50.8432
+    }
+  ]
+}

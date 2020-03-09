@@ -1,6 +1,8 @@
 var url = window.location.search;
 var city = getQueryVariable("city");
-var date = getQueryVariable("date");
+var date = getQueryVariable("date"); 
+var dateformat;
+var day;
 var antenna = getQueryVariable("antenna");
 //var city = 'Kortrijk';
 // var city = 'Brussels';
@@ -31,6 +33,7 @@ var siteRangeX2;
 var siteRangeY1;
 var siteRangeY2;
 var reso;
+
 
 var tminMax = [];
 var eminMax = [];
@@ -69,8 +72,12 @@ function setup() {
   coef = 0.2;
 
   // console.log("diffuse number: " + coef);
- 
-  
+    
+  var d = date.replace(/([0-9]{2})\-([0-9]{2})\-([0-9]{4})/g, '$3-$2-$1');
+  dateformat = new Date(date); 
+  console.log(dateformat);
+  day = dateformat.getDay();
+    
   if (city === 'Kortrijk') {
       siteRangeX1 = 3.209877;
       siteRangeX2 = 3.305424;
@@ -84,6 +91,10 @@ function setup() {
       siteRangeY2 = 50.796123;
       reso = 2;
   }
+    
+  if (date === '2019-09-30') {
+      day = 'Monday';
+  } else if (date === 'Brussels')
    N = 30*2*reso;
   
    initialize();
@@ -211,7 +222,7 @@ image(img, 0, 0);
   textSize(12);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
-  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + index + 'h', 20, 20);
+  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + day + '' + index + 'h', 20, 20);
   text('Network: ' + antenna, 20, 40);
   text('Data traffic: ', 20, 60);
   text('Hourly: ' + trafficPerhour.toFixed(2) + ' GB / h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 20, 80);
