@@ -110,7 +110,7 @@ function setup() {
       reso = 2;
   }
     
-   N = 30*2;
+   N = 30*2*reso;
   
    initialize();
   
