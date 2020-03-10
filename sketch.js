@@ -110,7 +110,7 @@ function setup() {
       reso = 1;
   }
     
-   N = 30*1*reso;
+   N = 30*2*reso;
   
    initialize();
   
@@ -162,7 +162,7 @@ function createGrid() {
 function draw() {
   
   index = floor(inde) % 24;
-  inde = inde + 1;
+  inde = inde + 0.5;
   
   // console.log(index);
   
