@@ -162,7 +162,7 @@ function createGrid() {
 function draw() {
   
   index = floor(inde) % 24;
-  inde = inde + 0.5;
+  inde = inde + 0.1;
   
   // console.log(index);
   
