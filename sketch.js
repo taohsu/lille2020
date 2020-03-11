@@ -66,7 +66,7 @@ function getSum(total, num) {
 }
 
 function setup() {
-  frameRate(60);
+  frameRate(30);
   createCanvas(600, 600);
   DX = 1.0 / N;
   // coef = DIFFUSE_COEF * DT / (DX * DX);
