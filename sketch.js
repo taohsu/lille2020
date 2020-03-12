@@ -237,12 +237,12 @@ image(img, 0, 0);
   textSize(12);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
-  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 20, 20);
-  text('Network: ' + antenna, 20, 40);
-  text('Data traffic: ', 20, 60);
-  text('Hourly: ' + trafficPerhour.toFixed(2) + ' GB / h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 20, 80);
-  text('Antenna energy consumption: ', 20, 100);
-  text('Hourly: ' + energyPerhour.toFixed(2) + ' KWh / h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 20, 120);
+  text(city + ' ' + 'Belgium' + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 20, height - 120);
+  text('Network: ' + antenna, 20, height - 100);
+  text('Data traffic: ', 20, height - 80);
+  text('Hourly: ' + trafficPerhour.toFixed(2) + ' GB / h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 20, height - 60);
+  text('Antenna energy consumption: ', 20, height - 40);
+  text('Hourly: ' + energyPerhour.toFixed(2) + ' KWh / h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 20, height - 20);
 
 }
 
