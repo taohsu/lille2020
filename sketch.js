@@ -10,6 +10,7 @@ var antenna = getQueryVariable("antenna");
 //var date = '2019-10-19';
 //var antenna = '4g';
 var sitedata;
+var siteCount;
 var consodata;
 // var sitedata = 'Kortrijk_2019-10-01_site_4g.json';
 // var consodata = 'Kortrijk_2019-10-01_conso_4g.json';
@@ -127,6 +128,7 @@ function setup() {
     var y = map(site[i].y, siteRangeY1, siteRangeY2, 0, height);
     append(locationx, x);
     append(locationy, y);
+    siteCount = site.length;
   }
   // console.log(locationx);
   // console.log(locationy);
