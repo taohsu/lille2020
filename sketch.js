@@ -67,11 +67,11 @@ function getSum(total, num) {
 }
 
 function setup() {
-  frameRate(60);
+  frameRate(30);
   createCanvas(600, 600);
   DX = 1.0 / N;
   // coef = DIFFUSE_COEF * DT / (DX * DX);
-  coef = 0.18;
+  coef = 0.2;
 
   // console.log("diffuse number: " + coef);
     
@@ -164,7 +164,7 @@ function createGrid() {
 function draw() {
   
   index = floor(inde) % 24;
-  inde = inde + 0.5;
+  inde = inde + 0.25*reso;
     
   if (index == 0) {
      trafficArray = [];
