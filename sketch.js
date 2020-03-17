@@ -240,27 +240,17 @@ image(img, 0, 0);
   energyTotal = energyArray.reduce(getSum);
   console.log(trafficTotal);
   console.log(energyTotal);
-  
-//  textSize(12);
-//  colorMode(RGB, 255, 255, 255);
-//  fill(255, 255, 255);
-//  text(date + ' ' + daydayday + ' ' + index + 'h', 20, height - 120);
-//  text('Network: ' + antenna, 20, height - 100);
-//  text('Data traffic: ', 20, height - 80);
-//  text('Hourly: ' + trafficPerhour.toFixed(2) + ' GB / h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 20, height - 60);
-//  text('Antenna energy consumption: ', 20, height - 40);
-//  text('Hourly: ' + energyPerhour.toFixed(2) + ' KWh / h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 20, height - 20);
 
     
   textSize(10);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
-  text(city + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 20, height - 175);
-  text(antenna + '_sites: ' + siteCount, 20, height - 160);
+  text(city + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 10, height - 175);
+  text(antenna + '_sites: ' + siteCount, 10, height - 160);
 
   fill(255);
   push();
-  translate(20,480);
+  translate(10,480);
   text('Data traffic: ', 0, -10);
   for (var i = 0; i < index; i++) {
     rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
@@ -271,7 +261,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(20,556);
+  translate(10,556);
   text('Energy consumption: ', 0, -10);
   for (var i = 0; i < index; i++) {
     rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
