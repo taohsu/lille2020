@@ -1,1759 +1,732 @@
 {
+  "trafficMinMax": [
+    0.0,
+    685.997
+  ],
+  "energyMiMax": [
+    0.148,
+    3.25
+  ],
   "sites": [
     {
-      "siteName": "B362-FOR_ALTITUDE_CENT",
-      "x": 4.3375,
-      "y": 50.817
+      "siteName": "cluster_4",
+      "x": 4.3524,
+      "y": 50.848
     },
     {
-      "siteName": "B173-AND_COURIER_1",
-      "x": 4.3038,
-      "y": 50.8136
+      "siteName": "cluster_5",
+      "x": 4.3957,
+      "y": 50.8521
     },
     {
-      "siteName": "B190-IXL_RUE_DU_LAC_37",
-      "x": 4.3699,
-      "y": 50.8239
-    },
-    {
-      "siteName": "B253-UCC_ELISABETH",
-      "x": 4.3726,
-      "y": 50.8062
-    },
-    {
-      "siteName": "B195-UCC_SQUAREMARLOW4",
-      "x": 4.3411,
-      "y": 50.8017
-    },
-    {
-      "siteName": "B161-HOTEL_THON_BRUSSELS",
-      "x": 4.3751,
-      "y": 50.844
-    },
-    {
-      "siteName": "B062-NMBS_JOSAPHAT_ARCHI_2G",
-      "x": 4.384,
-      "y": 50.8427
-    },
-    {
-      "siteName": "B300-RUE_JORDAENS",
-      "x": 4.3664,
-      "y": 50.8217
-    },
-    {
-      "siteName": "B177-UCC_VANDEWIELE",
-      "x": 4.3436,
-      "y": 50.8105
-    },
-    {
-      "siteName": "B045-BXL_EUROPA_HOTEL",
-      "x": 4.3755,
-      "y": 50.844
-    },
-    {
-      "siteName": "B256-FOR_ROYALE_UNION_GIOVANE",
-      "x": 4.3278,
-      "y": 50.8187
-    },
-    {
-      "siteName": "B009-BXL_SCHUMAN",
-      "x": 4.3818,
-      "y": 50.8422
-    },
-    {
-      "siteName": "B230-ETT_RUE_PERVYSE_100",
-      "x": 4.3983,
-      "y": 50.8299
-    },
-    {
-      "siteName": "B126-EUROPEAN_PARLIAMENT_D4_D5",
-      "x": 4.3734,
-      "y": 50.8391
-    },
-    {
-      "siteName": "B065-ETT_ST_PIERRE",
-      "x": 4.3916,
-      "y": 50.8369
-    },
-    {
-      "siteName": "B057-STG_CHEE_WATERLOO",
-      "x": 4.3428,
-      "y": 50.8275
-    },
-    {
-      "siteName": "B058-FOR_BD_2E_ARMEE_TOURIJ",
-      "x": 4.3128,
-      "y": 50.8096
-    },
-    {
-      "siteName": "B093-FOR_FOYER_FORESTOIS",
-      "x": 4.3158,
-      "y": 50.8035
-    },
-    {
-      "siteName": "B055-ETT_R_DE_HAERNE",
-      "x": 4.3877,
-      "y": 50.8275
-    },
-    {
-      "siteName": "B165-AND_QUAI",
-      "x": 4.304,
-      "y": 50.8208
-    },
-    {
-      "siteName": "B054-ETT_CLIN_ST_MICHEL_R_DE",
-      "x": 4.3991,
-      "y": 50.8428
-    },
-    {
-      "siteName": "B057-EU_PARLIAMENT",
-      "x": 4.375,
-      "y": 50.8387
-    },
-    {
-      "siteName": "B069-BXL_AV_LOUISE",
-      "x": 4.371,
-      "y": 50.8172
-    },
-    {
-      "siteName": "B252-BXL_KORTENBERGH_LIBRAIRI",
-      "x": 4.3903,
-      "y": 50.8451
-    },
-    {
-      "siteName": "B345-IXL_PLACE_ALBERT_II",
-      "x": 4.3802,
-      "y": 50.8244
-    },
-    {
-      "siteName": "B400-IXL_BORRENS",
-      "x": 4.3768,
-      "y": 50.8261
-    },
-    {
-      "siteName": "B494-WAT_RUE_BRILLANT",
-      "x": 4.3995,
-      "y": 50.8139
-    },
-    {
-      "siteName": "B089-UCC_JDELENS_AV_DE_FRE",
-      "x": 4.3607,
-      "y": 50.8035
-    },
-    {
-      "siteName": "B404-UCC_RUE_MARC_ARTHUR",
-      "x": 4.3527,
-      "y": 50.8139
-    },
-    {
-      "siteName": "B132-ING_COURS_ST-MICHEL",
-      "x": 4.3996,
-      "y": 50.8356
-    },
-    {
-      "siteName": "B160-STG_HOECHST",
-      "x": 4.3556,
-      "y": 50.8294
-    },
-    {
-      "siteName": "B066-ETT_HAP_TITZ",
-      "x": 4.3939,
-      "y": 50.8366
-    },
-    {
-      "siteName": "B229-IXL_GRAY_COURONNE",
-      "x": 4.3773,
-      "y": 50.8313
-    },
-    {
-      "siteName": "B233-UCC_PLACE_D_AREZZO",
-      "x": 4.3603,
-      "y": 50.8162
-    },
-    {
-      "siteName": "B071-UCC_AV_DU_GLOBE",
-      "x": 4.3279,
-      "y": 50.8058
-    },
-    {
-      "siteName": "B039-METRO_MERODE_BTS",
-      "x": 4.3988,
-      "y": 50.8392
-    },
-    {
-      "siteName": "B061-HOTEL_RENAISSANCE",
-      "x": 4.3722,
-      "y": 50.8377
-    },
-    {
-      "siteName": "B069-IXL_LIEGEOIS",
-      "x": 4.3768,
-      "y": 50.8275
-    },
-    {
-      "siteName": "B048-AND_GARE_PETITE_ILE",
-      "x": 4.3195,
-      "y": 50.826
-    },
-    {
-      "siteName": "B085-BERLAYMONT",
-      "x": 4.3827,
-      "y": 50.8436
-    },
-    {
-      "siteName": "B030-UCC_ALSEMBERG_DOYENNE",
-      "x": 4.3367,
-      "y": 50.8075
-    },
-    {
-      "siteName": "B265-BXL_MUSEE",
-      "x": 4.3763,
-      "y": 50.837
-    },
-    {
-      "siteName": "B235-BXL_AVE_DE_L_OREE_20",
-      "x": 4.3851,
-      "y": 50.8098
-    },
-    {
-      "siteName": "B035-NMBS_SCHUMAN",
-      "x": 4.3802,
-      "y": 50.843
-    },
-    {
-      "siteName": "B191-IXL_RUE_PREVOT",
-      "x": 4.3586,
-      "y": 50.8221
-    },
-    {
-      "siteName": "B216-EUROPA_BUILDING",
-      "x": 4.3801,
-      "y": 50.8424
-    },
-    {
-      "siteName": "B018-IXL_BUYL_BANNING",
-      "x": 4.3801,
-      "y": 50.8177
-    },
-    {
-      "siteName": "B231-IXL_RUE_ROFFIAEN",
-      "x": 4.3821,
-      "y": 50.8208
-    },
-    {
-      "siteName": "B134-UCC_RUE_COVEL",
-      "x": 4.3579,
-      "y": 50.8107
-    },
-    {
-      "siteName": "B245-WAT_RUE_DES_TOURISTE",
-      "x": 4.397,
-      "y": 50.8066
-    },
-    {
-      "siteName": "B162-FOR_VAN_HAELEN",
-      "x": 4.331,
-      "y": 50.8226
-    },
-    {
-      "siteName": "B171-IXL_DARWIN",
-      "x": 4.353,
-      "y": 50.818
-    },
-    {
-      "siteName": "B189-IXL_RUE_DU_VIADUC_BONIFA",
-      "x": 4.3705,
-      "y": 50.8342
-    },
-    {
-      "siteName": "B267-STG_MORICHAR",
-      "x": 4.349,
-      "y": 50.8266
-    },
-    {
-      "siteName": "B015-IXL_ULB",
-      "x": 4.378,
-      "y": 50.8142
-    },
-    {
-      "siteName": "B013-ETT_CE_BORSCHETTE",
-      "x": 4.3814,
-      "y": 50.8381
-    },
-    {
-      "siteName": "B496-BXL_LESBROUSSARTST",
-      "x": 4.3676,
-      "y": 50.8275
-    },
-    {
-      "siteName": "B311-UCC_PLACE_VANDERKINDERE",
-      "x": 4.3471,
-      "y": 50.8129
-    },
-    {
-      "siteName": "B050-IXL_FERNAND_COCQ",
-      "x": 4.3661,
-      "y": 50.8338
-    },
-    {
-      "siteName": "B249-STG_VILLALAAN",
-      "x": 4.3351,
-      "y": 50.8245
-    },
-    {
-      "siteName": "B215-FOR_ALSEMBERG_LBS",
-      "x": 4.3423,
-      "y": 50.8208
-    },
-    {
-      "siteName": "B163-STG_MDB",
-      "x": 4.3496,
-      "y": 50.8211
-    },
-    {
-      "siteName": "B148-BXL_NERVIENS_35",
-      "x": 4.3866,
-      "y": 50.8391
-    },
-    {
-      "siteName": "B070-FOR_HOP_MOLIERE",
-      "x": 4.3425,
-      "y": 50.8162
-    },
-    {
-      "siteName": "B192-IXL_DERACHE",
-      "x": 4.3876,
-      "y": 50.8155
-    },
-    {
-      "siteName": "B445-BXL_LOUIZALAAN",
-      "x": 4.359,
-      "y": 50.8314
-    },
-    {
-      "siteName": "B032-UCC_ALSEMBERG",
-      "x": 4.3367,
-      "y": 50.8044
-    },
-    {
-      "siteName": "B234-UCC_MONTJOIE",
-      "x": 4.3677,
-      "y": 50.8103
-    },
-    {
-      "siteName": "B068-IXL_HOTTAT",
-      "x": 4.3793,
-      "y": 50.827
-    },
-    {
-      "siteName": "B020-BXL_CONSEIL_EUROPEEN",
-      "x": 4.381,
-      "y": 50.8411
-    },
-    {
-      "siteName": "B205-AUDI_VORST_L8_L3_4",
-      "x": 4.317,
-      "y": 50.8148
-    },
-    {
-      "siteName": "B209-ETT_RUE_CHEMINEE",
-      "x": 4.3832,
-      "y": 50.8358
-    },
-    {
-      "siteName": "B232-IXL_COURONNE_442",
-      "x": 4.39,
-      "y": 50.8212
-    },
-    {
-      "siteName": "B034-UCC_BUE_VERHULST",
-      "x": 4.3384,
-      "y": 50.8034
-    },
-    {
-      "siteName": "B067-ETT_GAUTIER_HAP",
-      "x": 4.3895,
-      "y": 50.8354
-    },
-    {
-      "siteName": "B004-BRU_LOI_VERONESE",
-      "x": 4.3857,
-      "y": 50.8418
-    },
-    {
-      "siteName": "B028-BXL_DAUTZENBERG",
-      "x": 4.3659,
-      "y": 50.827
-    },
-    {
-      "siteName": "B089-TOUR_LOUISE",
-      "x": 4.3618,
-      "y": 50.8285
-    },
-    {
-      "siteName": "B118-VW_PRA",
-      "x": 4.3077,
-      "y": 50.805
-    },
-    {
-      "siteName": "B159-FOR_RESIDENCE_FICLENT",
-      "x": 4.331,
-      "y": 50.8275
-    },
-    {
-      "siteName": "B281-ETT_AV_NOUVELLE",
-      "x": 4.3859,
-      "y": 50.8258
-    },
-    {
-      "siteName": "B318-STG_CHAUSSEE_CHARLEROI",
-      "x": 4.3556,
-      "y": 50.8262
-    },
-    {
-      "siteName": "B003-JUBELPARK",
-      "x": 4.3943,
-      "y": 50.8403
-    },
-    {
-      "siteName": "B036-BXL_BELLIARD232",
-      "x": 4.3834,
-      "y": 50.8401
-    },
-    {
-      "siteName": "B077-VOR_GOIDSNOVENLAAN",
-      "x": 4.3385,
-      "y": 50.813
-    },
-    {
-      "siteName": "B208-ETT_AVE_DU_11_NOVEMBRE",
-      "x": 4.3926,
-      "y": 50.8331
-    },
-    {
-      "siteName": "B051-BXL_DORINT_HOTEL",
-      "x": 4.383,
-      "y": 50.8448
-    },
-    {
-      "siteName": "B071-ATRIUM_EUPARLIAMENT",
-      "x": 4.375,
-      "y": 50.8404
-    },
-    {
-      "siteName": "B175-FOR_BRAECKELEER",
-      "x": 4.3326,
-      "y": 50.8119
-    },
-    {
-      "siteName": "B015-PARLIAMENT_STATION",
-      "x": 4.3736,
-      "y": 50.8378
-    },
-    {
-      "siteName": "B056-IXL_R_LONGUE_HAIE",
-      "x": 4.3639,
-      "y": 50.8301
-    },
-    {
-      "siteName": "B113-SOFITEL_EUROPE",
-      "x": 4.3808,
-      "y": 50.8378
-    },
-    {
-      "siteName": "B110-FLAGEY",
-      "x": 4.3728,
-      "y": 50.8272
-    },
-    {
-      "siteName": "B133-BXL_AV_DU_BRESIL",
-      "x": 4.3893,
-      "y": 50.8032
-    },
-    {
-      "siteName": "B194-FOR_BD_2E_ARMEE_BRITANIQ",
-      "x": 4.319,
-      "y": 50.8155
-    },
-    {
-      "siteName": "B169-VORST_NATIONAAL",
-      "x": 4.3261,
-      "y": 50.8098
-    },
-    {
-      "siteName": "B039-ETT_DEMOT28",
-      "x": 4.3849,
-      "y": 50.8381
-    },
-    {
-      "siteName": "B137-EC_NERVIENS",
-      "x": 4.3906,
-      "y": 50.8384
-    },
-    {
-      "siteName": "B030-METRO_ALBERT",
-      "x": 4.3424,
-      "y": 50.8215
-    },
-    {
-      "siteName": "B014-ETT_RUE_BAUCQ",
-      "x": 4.3843,
-      "y": 50.8311
-    },
-    {
-      "siteName": "B213-CHIREC_DELTA_HOSPITAL",
-      "x": 4.3994,
-      "y": 50.8165
-    },
-    {
-      "siteName": "B112-RADISSON_SAS_EUROPE",
-      "x": 4.3725,
-      "y": 50.8373
-    },
-    {
-      "siteName": "B095-BXL_STEVIN_ARCHIMEDE",
-      "x": 4.384,
-      "y": 50.8441
-    },
-    {
-      "siteName": "B096-AND_ROBERT_BUYCK",
-      "x": 4.3011,
-      "y": 50.8247
-    },
-    {
-      "siteName": "B099-IXL_IXELLES",
-      "x": 4.3977,
-      "y": 50.8201
-    },
-    {
-      "siteName": "B096-ITTE_TOWER",
-      "x": 4.3723,
-      "y": 50.8172
-    },
-    {
-      "siteName": "B040-METRO_SCHUMAN_BTS",
-      "x": 4.3775,
-      "y": 50.8436
-    },
-    {
-      "siteName": "B034-IXL_CONRAD_HOTEL",
-      "x": 4.3578,
-      "y": 50.8324
-    },
-    {
-      "siteName": "B019-IXL_BUYL_JEANNE",
-      "x": 4.3824,
-      "y": 50.8164
-    },
-    {
-      "siteName": "B070-IXL_BORRENS",
-      "x": 4.376,
-      "y": 50.8258
-    },
-    {
-      "siteName": "B144-AUDI_BUILDING_A_RRU",
-      "x": 4.3206,
-      "y": 50.8164
-    },
-    {
-      "siteName": "B006-BXL_CE_BREYDEL",
-      "x": 4.3848,
-      "y": 50.8399
-    },
-    {
-      "siteName": "B128-LEX_EUROPEAN_BULDING",
-      "x": 4.3793,
-      "y": 50.8432
-    },
-    {
-      "siteName": "B127-BXL_AV_DE_STROOPER",
-      "x": 4.3298,
-      "y": 50.8956
-    },
-    {
-      "siteName": "B029-MOL_VANDEN_BOGAERDE_ST_M",
-      "x": 4.3397,
-      "y": 50.8646
-    },
-    {
-      "siteName": "B358-MOL_RUE_LESSINES",
-      "x": 4.3277,
-      "y": 50.8511
-    },
-    {
-      "siteName": "B150-SCH_NOVARTIS",
-      "x": 4.3726,
-      "y": 50.8621
-    },
-    {
-      "siteName": "B028-BXL_SQ_SAINCLETTE",
-      "x": 4.3478,
-      "y": 50.8588
-    },
-    {
-      "siteName": "B079-BXL_BRTN_TH_AMERICAIN",
-      "x": 4.3527,
-      "y": 50.8943
-    },
-    {
-      "siteName": "B330-SCH_ARTAN",
-      "x": 4.385,
-      "y": 50.855
-    },
-    {
-      "siteName": "B092-JET_HIVB_STUDENTENHAUS",
-      "x": 4.306,
-      "y": 50.8841
-    },
-    {
-      "siteName": "B386-BXL_BD_ALBERT_II",
-      "x": 4.3562,
-      "y": 50.8594
-    },
-    {
-      "siteName": "B061-MOL_R_DE_LA_B_AU_BOIS_DO",
-      "x": 4.3029,
-      "y": 50.8492
-    },
-    {
-      "siteName": "B063-JET_R_ABBE_DE_SLOOVER",
-      "x": 4.3221,
-      "y": 50.8771
-    },
-    {
-      "siteName": "B044-BXL_Q_BOIS_DE_CONSTRUCT",
-      "x": 4.3463,
-      "y": 50.855
-    },
-    {
-      "siteName": "B031-MOL_QUATRE_VENTS_60",
-      "x": 4.3336,
-      "y": 50.854
-    },
-    {
-      "siteName": "B116-SCH_R_F_SEVERIN",
-      "x": 4.389,
-      "y": 50.8759
-    },
-    {
-      "siteName": "B114-PRESIDENT_WORLD_TRADE_CEN",
-      "x": 4.3591,
-      "y": 50.8651
-    },
-    {
-      "siteName": "B154-SCH_RESIDENCE_DESCHANEL",
-      "x": 4.3775,
-      "y": 50.8551
-    },
-    {
-      "siteName": "B011-BXL_CENTRAL_STATION",
-      "x": 4.3572,
-      "y": 50.8455
-    },
-    {
-      "siteName": "B186-BXL_RUE_DES_ARTS",
-      "x": 4.3672,
-      "y": 50.842
-    },
-    {
-      "siteName": "B043-METRO_PARK_BTS",
-      "x": 4.3625,
-      "y": 50.8463
-    },
-    {
-      "siteName": "B215-CO_STATION",
-      "x": 4.3593,
-      "y": 50.8475
-    },
-    {
-      "siteName": "B301-SCHAERBEEK_ST_SERVAIS",
-      "x": 4.3699,
-      "y": 50.8658
-    },
-    {
-      "siteName": "B338-BXL_PARC_BRUSSELS",
-      "x": 4.37,
-      "y": 50.8456
-    },
-    {
-      "siteName": "B178-SCH_LATINIS",
-      "x": 4.3921,
-      "y": 50.8622
-    },
-    {
-      "siteName": "B110-BASILICE_KOCKELBERG",
-      "x": 4.3169,
-      "y": 50.8669
-    },
-    {
-      "siteName": "B027-BXL_ABATTOIR",
-      "x": 4.3434,
-      "y": 50.8477
-    },
-    {
-      "siteName": "B188-IXL_RUE_CRESPEL_SECRET_E",
-      "x": 4.358,
-      "y": 50.8347
-    },
-    {
-      "siteName": "B153-SCH_RES_WAHIS",
-      "x": 4.3989,
-      "y": 50.8559
-    },
-    {
-      "siteName": "B125-BXL_PAGODES",
-      "x": 4.3714,
-      "y": 50.8922
-    },
-    {
-      "siteName": "B144-SCH_VYTTERS",
-      "x": 4.3809,
-      "y": 50.8722
-    },
-    {
-      "siteName": "B277-BRU_MEIBOOMSTRAAT",
-      "x": 4.3611,
-      "y": 50.852
-    },
-    {
-      "siteName": "B072-BXL_MERIDIEN_HOTEL",
-      "x": 4.3559,
-      "y": 50.8459
-    },
-    {
-      "siteName": "B046-BXL_R_ALLARD",
-      "x": 4.3546,
-      "y": 50.8399
-    },
-    {
-      "siteName": "B025-BXL_EVERS_2_8",
-      "x": 4.3486,
-      "y": 50.834
-    },
-    {
-      "siteName": "B026-BXL_STALINGRAD",
-      "x": 4.3451,
-      "y": 50.8418
-    },
-    {
-      "siteName": "B183-BXL_EHSAL_STORMSTRAAT",
-      "x": 4.3575,
-      "y": 50.8488
-    },
-    {
-      "siteName": "B004-BXL_MICR_LEOPOLD2",
-      "x": 4.3279,
-      "y": 50.8642
-    },
-    {
-      "siteName": "B132-BXL_EXPO_PALAIS5",
-      "x": 4.3373,
-      "y": 50.8996
-    },
-    {
-      "siteName": "B155-MOL_PISCINE",
+      "siteName": "cluster_8",
       "x": 4.3109,
       "y": 50.8541
     },
     {
-      "siteName": "B137-AND_BD_E_MACHTENS",
-      "x": 4.3226,
-      "y": 50.8536
+      "siteName": "cluster_9",
+      "x": 4.3699,
+      "y": 50.8239
     },
     {
-      "siteName": "B224-VO_HERMAN_TEIRLINCK",
-      "x": 4.3504,
-      "y": 50.8665
+      "siteName": "cluster_10",
+      "x": 4.331,
+      "y": 50.8275
     },
     {
-      "siteName": "B331-BXL_HEEMBEEK",
-      "x": 4.3881,
-      "y": 50.8959
-    },
-    {
-      "siteName": "B033-SCH_FOYER_SCHAERBEEK",
-      "x": 4.3627,
-      "y": 50.8594
-    },
-    {
-      "siteName": "B013-BXL_RUE_HAUTE",
-      "x": 4.3503,
-      "y": 50.8386
-    },
-    {
-      "siteName": "B242-BXL_GALERIE_PARLEMENT_23",
-      "x": 4.3653,
-      "y": 50.8488
-    },
-    {
-      "siteName": "B003-BXL_MARCHE_HERBES",
-      "x": 4.3541,
-      "y": 50.8467
-    },
-    {
-      "siteName": "B323-MOL_HOESE",
-      "x": 4.3188,
-      "y": 50.8576
-    },
-    {
-      "siteName": "B020-METRO_DE_BROUCKERE",
-      "x": 4.3518,
-      "y": 50.8503
-    },
-    {
-      "siteName": "B009-BXL_CITY2",
-      "x": 4.3584,
-      "y": 50.8549
-    },
-    {
-      "siteName": "B240-BXL_RUE_HAUTE_298",
-      "x": 4.3473,
-      "y": 50.8355
-    },
-    {
-      "siteName": "B141-BXL_LAEKEN",
-      "x": 4.349,
-      "y": 50.8812
-    },
-    {
-      "siteName": "B244-BXL_RUE_DES_CONFEDER",
-      "x": 4.3896,
-      "y": 50.8494
-    },
-    {
-      "siteName": "B029-METRO_PORTE_HAL",
-      "x": 4.3435,
-      "y": 50.8332
-    },
-    {
-      "siteName": "B002-BXL_HALLEPOORT",
-      "x": 4.3432,
-      "y": 50.8342
-    },
-    {
-      "siteName": "B130-BXL_FRUITS_LEGUMES_2",
-      "x": 4.3739,
-      "y": 50.8774
-    },
-    {
-      "siteName": "B055-HILTON_CROWNE_PLAZA",
-      "x": 4.3601,
-      "y": 50.8555
-    },
-    {
-      "siteName": "B124-MOL_ASBL_SPORT",
-      "x": 4.3237,
-      "y": 50.8621
-    },
-    {
-      "siteName": "B184-SJO_RUE_DU_VALLON",
-      "x": 4.3725,
-      "y": 50.8489
-    },
-    {
-      "siteName": "B115-BXL_BROUCKERE_COCA",
-      "x": 4.3534,
-      "y": 50.8521
-    },
-    {
-      "siteName": "B149-SCH_DESCHANEL",
-      "x": 4.3798,
-      "y": 50.8614
-    },
-    {
-      "siteName": "B078-BXL_HOP_DES_ENFANTS",
-      "x": 4.3289,
-      "y": 50.8886
-    },
-    {
-      "siteName": "B123-BXL_R_POISSONNIERES",
-      "x": 4.3484,
-      "y": 50.8493
-    },
-    {
-      "siteName": "B498-SJO_BRAEMTSTRAAT",
-      "x": 4.3773,
-      "y": 50.8515
-    },
-    {
-      "siteName": "B182-BXL_MANATHAN_BD_MAX",
-      "x": 4.3567,
-      "y": 50.8547
-    },
-    {
-      "siteName": "B052-SCH_R_METSYS",
-      "x": 4.377,
-      "y": 50.8678
-    },
-    {
-      "siteName": "B316-MOL_PORTE_FLANDRES",
-      "x": 4.3406,
-      "y": 50.8531
-    },
-    {
-      "siteName": "B047-AND_CHEE_MONS_123",
-      "x": 4.3325,
-      "y": 50.8431
-    },
-    {
-      "siteName": "B355-ETT_RUE_DU_TRONE",
-      "x": 4.3674,
-      "y": 50.8396
-    },
-    {
-      "siteName": "B078-JET_VAN_BEESEN",
-      "x": 4.3284,
-      "y": 50.8696
-    },
-    {
-      "siteName": "B081-AND_ANDERLECHTXI",
-      "x": 4.3168,
-      "y": 50.8368
-    },
-    {
-      "siteName": "B024-HEYSEL_PALAIS_10",
-      "x": 4.3402,
-      "y": 50.8994
-    },
-    {
-      "siteName": "B088-SNCB_RUE_BARA",
-      "x": 4.3316,
-      "y": 50.8355
-    },
-    {
-      "siteName": "B146-SCH_PROGRES",
-      "x": 4.3631,
-      "y": 50.8665
-    },
-    {
-      "siteName": "B220-AXA_REGENTLAAN",
-      "x": 4.3627,
-      "y": 50.8397
-    },
-    {
-      "siteName": "B166-STG_AV_FONSNY",
-      "x": 4.3372,
-      "y": 50.8354
-    },
-    {
-      "siteName": "B310-MOL_WOESTE",
-      "x": 4.3347,
-      "y": 50.8732
-    },
-    {
-      "siteName": "B257-JET_MORANVILLE",
-      "x": 4.3322,
-      "y": 50.8692
-    },
-    {
-      "siteName": "B250-BXL_SHELL",
-      "x": 4.3585,
-      "y": 50.8458
-    },
-    {
-      "siteName": "B325-VIL_ARAUCARIA",
-      "x": 4.3632,
-      "y": 50.8954
-    },
-    {
-      "siteName": "B255-AND_FOYER",
-      "x": 4.3131,
-      "y": 50.8336
-    },
-    {
-      "siteName": "B439-LAK_STIENON",
-      "x": 4.3339,
-      "y": 50.8922
-    },
-    {
-      "siteName": "B212-SNCB_SALIK_2G",
-      "x": 4.3317,
-      "y": 50.8342
-    },
-    {
-      "siteName": "B032-MOL_ALU_SUISSE",
-      "x": 4.3283,
-      "y": 50.8486
-    },
-    {
-      "siteName": "B339-BXL_RUE_DU_VAUTOUR",
-      "x": 4.3438,
-      "y": 50.8447
-    },
-    {
-      "siteName": "B131-MOL_METTEWIELAAN",
-      "x": 4.3127,
-      "y": 50.859
-    },
-    {
-      "siteName": "B180-JET_AV_DE_LAEKEN_36",
-      "x": 4.3239,
-      "y": 50.8712
-    },
-    {
-      "siteName": "B134-FORTIS_BROEKSTRAAT",
-      "x": 4.3583,
-      "y": 50.8513
-    },
-    {
-      "siteName": "B024-BXL_ECOLE_CADETS_MEDORI",
-      "x": 4.3504,
-      "y": 50.8854
-    },
-    {
-      "siteName": "B142-SCH_DE_ROUCK",
+      "siteName": "cluster_11",
       "x": 4.3732,
       "y": 50.8722
     },
     {
-      "siteName": "B372-BXL_RUE_DIEUDONNE",
-      "x": 4.3438,
-      "y": 50.87
+      "siteName": "cluster_12",
+      "x": 4.3322,
+      "y": 50.8692
     },
     {
-      "siteName": "B046-STG_WATERLOO",
-      "x": 4.3446,
-      "y": 50.8312
+      "siteName": "cluster_14",
+      "x": 4.3983,
+      "y": 50.8299
     },
     {
-      "siteName": "B432-JET_LIEBRECHTLAAN",
-      "x": 4.3163,
-      "y": 50.8901
+      "siteName": "cluster_15",
+      "x": 4.3738,
+      "y": 50.8453
     },
     {
-      "siteName": "B295-EC_SC11",
-      "x": 4.3713,
-      "y": 50.8416
+      "siteName": "cluster_18",
+      "x": 4.3496,
+      "y": 50.8211
     },
     {
-      "siteName": "B068-MARRIOTT_BRUSSELS_2G",
-      "x": 4.349,
-      "y": 50.8487
-    },
-    {
-      "siteName": "B022-HEYSEL_PALAIS_3",
-      "x": 4.3358,
-      "y": 50.8983
-    },
-    {
-      "siteName": "B230-GALERIE_LOUISE_2G",
-      "x": 4.357,
-      "y": 50.8353
-    },
-    {
-      "siteName": "B145-SCH_STIJNSTEURELS",
+      "siteName": "cluster_20",
       "x": 4.3915,
       "y": 50.8727
     },
     {
-      "siteName": "B128-BXL_JEAN_HEYMANS_7",
-      "x": 4.341,
-      "y": 50.8848
+      "siteName": "cluster_21",
+      "x": 4.328,
+      "y": 50.8499
     },
     {
-      "siteName": "B033-KBC_HAVENLAAN12",
-      "x": 4.3474,
-      "y": 50.8618
+      "siteName": "cluster_22",
+      "x": 4.3498,
+      "y": 50.8664
     },
     {
-      "siteName": "B048-METRO_BEURS_BTS",
-      "x": 4.3491,
-      "y": 50.8483
+      "siteName": "cluster_25",
+      "x": 4.3577,
+      "y": 50.8334
     },
     {
-      "siteName": "B056-SOUTH_STATION",
-      "x": 4.3355,
-      "y": 50.8364
+      "siteName": "cluster_26",
+      "x": 4.3851,
+      "y": 50.8398
     },
     {
-      "siteName": "B114-MOL_MYRTES",
-      "x": 4.3047,
-      "y": 50.8596
+      "siteName": "cluster_27",
+      "x": 4.3423,
+      "y": 50.8355
     },
     {
-      "siteName": "B076-AND_BROGNIEZ",
-      "x": 4.3383,
-      "y": 50.8424
+      "siteName": "cluster_28",
+      "x": 4.3801,
+      "y": 50.8177
     },
     {
-      "siteName": "B170-MOL_SINTMARIASTRAAT",
-      "x": 4.3417,
-      "y": 50.8548
+      "siteName": "cluster_29",
+      "x": 4.3623,
+      "y": 50.8579
     },
     {
-      "siteName": "B164-BRU_CHARLEROISE",
-      "x": 4.3567,
-      "y": 50.8331
+      "siteName": "cluster_31",
+      "x": 4.3169,
+      "y": 50.8669
     },
     {
-      "siteName": "B187-AND_VAILLANCE",
-      "x": 4.3038,
-      "y": 50.8363
+      "siteName": "cluster_33",
+      "x": 4.3168,
+      "y": 50.8368
     },
     {
-      "siteName": "B032-METRO_VEEWEYDE",
-      "x": 4.3001,
-      "y": 50.8283
+      "siteName": "cluster_34",
+      "x": 4.3798,
+      "y": 50.8614
     },
     {
-      "siteName": "B158-SCH_RES_MARCHAL",
-      "x": 4.3958,
-      "y": 50.8513
+      "siteName": "cluster_37",
+      "x": 4.3412,
+      "y": 50.8539
     },
     {
-      "siteName": "B219-IRIS_ACTIRIS_ASTRO_2G",
-      "x": 4.3696,
-      "y": 50.8512
+      "siteName": "cluster_40",
+      "x": 4.3219,
+      "y": 50.8757
     },
     {
-      "siteName": "B146-STIB_RUE_ROYALE",
-      "x": 4.3622,
-      "y": 50.847
-    },
-    {
-      "siteName": "B363-BXL_AVENUE_CHARLES_QUINT",
-      "x": 4.3014,
-      "y": 50.8717
-    },
-    {
-      "siteName": "B055-SJO_LOUVAIN",
-      "x": 4.3822,
-      "y": 50.8508
-    },
-    {
-      "siteName": "B116-PORTALIS",
-      "x": 4.3549,
-      "y": 50.8362
-    },
-    {
-      "siteName": "B115-NMBS_GARE_DU_NORD",
-      "x": 4.3599,
-      "y": 50.8604
-    },
-    {
-      "siteName": "B211-NMBS_LABO_SCHAARB_2G",
-      "x": 4.3804,
-      "y": 50.8785
-    },
-    {
-      "siteName": "B231-ENGIE_HQ_BRUSSELS",
-      "x": 4.3554,
-      "y": 50.8607
-    },
-    {
-      "siteName": "B490-MOL_VAN_HEMELIJCK",
-      "x": 4.3268,
-      "y": 50.8536
-    },
-    {
-      "siteName": "B319-SCH_PLACE_REINE",
-      "x": 4.3699,
-      "y": 50.8592
-    },
-    {
-      "siteName": "B181-MOL_DE_SCHAMPHELEER",
-      "x": 4.3361,
-      "y": 50.8596
-    },
-    {
-      "siteName": "B066-EVE_RUE_DE_BOEK",
-      "x": 4.3996,
-      "y": 50.8674
-    },
-    {
-      "siteName": "B340-STG_HALLEPOORT",
-      "x": 4.343,
-      "y": 50.832
-    },
-    {
-      "siteName": "B087-SCH_AV_PLASKY",
-      "x": 4.3957,
-      "y": 50.8529
-    },
-    {
-      "siteName": "B156-MOL_TORREKENS",
-      "x": 4.3165,
-      "y": 50.8483
-    },
-    {
-      "siteName": "B008-BXL_BOUCHERS",
-      "x": 4.3541,
-      "y": 50.8481
-    },
-    {
-      "siteName": "B152-SNCB_S_CITY_2G",
-      "x": 4.3382,
-      "y": 50.8356
-    },
-    {
-      "siteName": "B080-BXL_NOH_CHEE_VILVORDE",
-      "x": 4.3883,
-      "y": 50.8909
-    },
-    {
-      "siteName": "B007-BXL_MONNAIE_HE",
-      "x": 4.3539,
-      "y": 50.8505
-    },
-    {
-      "siteName": "B042-METRO_ARTS_LOI_BTS",
-      "x": 4.3692,
-      "y": 50.8454
-    },
-    {
-      "siteName": "B207-ZENITH_TOWER",
-      "x": 4.359,
-      "y": 50.8638
-    },
-    {
-      "siteName": "B105-SNCB_ATRIUM",
-      "x": 4.3408,
-      "y": 50.8361
-    },
-    {
-      "siteName": "B276-BXL_HOUBADESTROOPER",
-      "x": 4.3368,
-      "y": 50.8898
-    },
-    {
-      "siteName": "B395-BRU_STAPELHUISSTRAAT",
-      "x": 4.3525,
-      "y": 50.8685
-    },
-    {
-      "siteName": "B088-SCH_AV_TOPAZE",
-      "x": 4.3919,
-      "y": 50.8533
-    },
-    {
-      "siteName": "B150-SENAT_THE_BELGIUM_2G",
-      "x": 4.3652,
-      "y": 50.8469
-    },
-    {
-      "siteName": "B065-BXL_BEG_V_ET_FIT_Q_USINE",
+      "siteName": "cluster_42",
       "x": 4.3618,
       "y": 50.8728
     },
     {
-      "siteName": "B050-KOE_R_DE_NECK",
-      "x": 4.3298,
-      "y": 50.8652
+      "siteName": "cluster_43",
+      "x": 4.3834,
+      "y": 50.8509
     },
     {
-      "siteName": "B049-MOL_R_JULES_VIEUJANT",
-      "x": 4.3215,
-      "y": 50.8545
+      "siteName": "cluster_44",
+      "x": 4.3195,
+      "y": 50.826
     },
     {
-      "siteName": "B025-BXL_DRAPS",
-      "x": 4.3507,
-      "y": 50.8825
+      "siteName": "cluster_45",
+      "x": 4.3868,
+      "y": 50.8267
     },
     {
-      "siteName": "B006-BXL_FRIPPIERS",
-      "x": 4.3518,
-      "y": 50.8484
+      "siteName": "cluster_46",
+      "x": 4.3921,
+      "y": 50.8622
     },
     {
-      "siteName": "B073-BASTION_TOWER",
-      "x": 4.3629,
-      "y": 50.8383
+      "siteName": "cluster_47",
+      "x": 4.3625,
+      "y": 50.8468
     },
     {
-      "siteName": "B013-CENTRAL_STATION",
-      "x": 4.3573,
-      "y": 50.8455
+      "siteName": "cluster_48",
+      "x": 4.3773,
+      "y": 50.8313
     },
     {
-      "siteName": "B074-BXL_FERRARIS",
-      "x": 4.3557,
-      "y": 50.8592
-    },
-    {
-      "siteName": "B147-SCH_SAINT_DOMINIQUE",
-      "x": 4.386,
-      "y": 50.8663
-    },
-    {
-      "siteName": "B044-METRO_MADOU_BTS",
-      "x": 4.3684,
-      "y": 50.8493
-    },
-    {
-      "siteName": "B157-BXL_CLOVIS",
-      "x": 4.3821,
-      "y": 50.8478
-    },
-    {
-      "siteName": "B043-SJO_ROYAL_CROWN",
-      "x": 4.3664,
-      "y": 50.8552
-    },
-    {
-      "siteName": "B203-IBGE_THURNANDTAXI",
-      "x": 4.3491,
-      "y": 50.8656
-    },
-    {
-      "siteName": "B296-GARE_DU_MIDI",
-      "x": 4.343,
-      "y": 50.8362
-    },
-    {
-      "siteName": "B421-BXL_RUE_DE_WAND",
-      "x": 4.3584,
-      "y": 50.8978
-    },
-    {
-      "siteName": "B241-BXL_FEDERAL",
-      "x": 4.3516,
-      "y": 50.8454
-    },
-    {
-      "siteName": "B414-AND_BD_POINCARE",
-      "x": 4.3371,
-      "y": 50.8394
-    },
-    {
-      "siteName": "B099-KOE_HERKOLIERS",
-      "x": 4.3328,
-      "y": 50.8616
-    },
-    {
-      "siteName": "B294-BXL_PORTE_HALLE",
-      "x": 4.338,
-      "y": 50.8315
-    },
-    {
-      "siteName": "B483-BRU_RUE_MABILLE",
-      "x": 4.3428,
-      "y": 50.8806
-    },
-    {
-      "siteName": "B154-BNP_BOREAL_BUILDING",
-      "x": 4.359,
-      "y": 50.8586
-    },
-    {
-      "siteName": "B109-GAN_CPAS",
-      "x": 4.3132,
-      "y": 50.8748
-    },
-    {
-      "siteName": "B079-ANCIENNE_BELGIQUE_2G",
-      "x": 4.3487,
-      "y": 50.8474
-    },
-    {
-      "siteName": "B002-BXL_EXPO_PALAIS5",
-      "x": 4.3378,
-      "y": 50.8991
-    },
-    {
-      "siteName": "B348-JET_AVENUE_EXPOSITION",
-      "x": 4.3074,
-      "y": 50.8908
-    },
-    {
-      "siteName": "B083-SCH_AV_VERHAEREN",
-      "x": 4.3795,
-      "y": 50.8746
-    },
-    {
-      "siteName": "B106-JET_DE_SMET_251",
-      "x": 4.3314,
-      "y": 50.8774
-    },
-    {
-      "siteName": "B314-MOL_HOLLEVOET",
-      "x": 4.3373,
-      "y": 50.8655
-    },
-    {
-      "siteName": "B064-BXL_R_NEYBERGH",
-      "x": 4.3456,
-      "y": 50.8767
-    },
-    {
-      "siteName": "B012-BXL_TRADE_MART",
-      "x": 4.3429,
-      "y": 50.8978
-    },
-    {
-      "siteName": "B225-M_TEAM_TAMARIS",
-      "x": 4.3065,
-      "y": 50.8543
-    },
-    {
-      "siteName": "B100-BOTANIC_BUILDING",
-      "x": 4.3619,
-      "y": 50.8564
-    },
-    {
-      "siteName": "B075-AND_GOUNOT",
-      "x": 4.3009,
-      "y": 50.8308
-    },
-    {
-      "siteName": "B053-METRO_LOUIZA_BTS",
-      "x": 4.3546,
-      "y": 50.8356
-    },
-    {
-      "siteName": "B060-AND_R_DEMOSTHENE",
-      "x": 4.312,
-      "y": 50.843
-    },
-    {
-      "siteName": "B062-BER_HOP_FRCS_AV_J_GOFFIN",
-      "x": 4.3063,
-      "y": 50.8673
-    },
-    {
-      "siteName": "B028-BXL_HILTON",
-      "x": 4.3574,
-      "y": 50.8377
-    },
-    {
-      "siteName": "B046-METRO_NOORD_STATION_BTS",
-      "x": 4.3606,
-      "y": 50.8602
-    },
-    {
-      "siteName": "B364-GAN_AVENUE_DE_JETTE",
-      "x": 4.3218,
-      "y": 50.8743
-    },
-    {
-      "siteName": "B041-METRO_MAELBEEK_BTS",
-      "x": 4.3731,
-      "y": 50.8446
-    },
-    {
-      "siteName": "B053-SCH_AV_CHAZAL",
-      "x": 4.3896,
-      "y": 50.8565
-    },
-    {
-      "siteName": "B354-BRU_AVENUE_DE_LA_REINE",
-      "x": 4.3548,
-      "y": 50.8768
-    },
-    {
-      "siteName": "B028-METRO_BAUDOUIN_2G",
-      "x": 4.3284,
-      "y": 50.8965
-    },
-    {
-      "siteName": "B159-BNP_KONINGSTR_60",
-      "x": 4.3619,
-      "y": 50.8462
-    },
-    {
-      "siteName": "B055-METRO_TROON_BTS",
-      "x": 4.3653,
-      "y": 50.8409
-    },
-    {
-      "siteName": "B011-BRU_CH_LOUVAIN",
-      "x": 4.3845,
-      "y": 50.851
-    },
-    {
-      "siteName": "B093-EUROSTATION",
-      "x": 4.3357,
-      "y": 50.8385
-    },
-    {
-      "siteName": "B034-AND_ECOLE_ERASMUS",
-      "x": 4.3226,
-      "y": 50.8422
-    },
-    {
-      "siteName": "B107-JET_ODON_WARLAND",
-      "x": 4.3378,
-      "y": 50.8724
-    },
-    {
-      "siteName": "B251-BXL_GALERIE",
-      "x": 4.3634,
-      "y": 50.8372
-    },
-    {
-      "siteName": "B343-AND_RUE_DE_FIENNES",
+      "siteName": "cluster_50",
       "x": 4.3317,
       "y": 50.8389
     },
     {
-      "siteName": "B105-JET_GARAGE_BMW_VAN_AVOND",
-      "x": 4.3152,
-      "y": 50.8858
+      "siteName": "cluster_52",
+      "x": 4.3456,
+      "y": 50.8767
     },
     {
-      "siteName": "B054-METRO_NAAMSEPOORT_BTS",
-      "x": 4.3613,
-      "y": 50.8388
+      "siteName": "cluster_53",
+      "x": 4.3804,
+      "y": 50.8785
     },
     {
-      "siteName": "B050-METRO_LEMONIER_BTS",
-      "x": 4.3405,
-      "y": 50.84
+      "siteName": "cluster_55",
+      "x": 4.341,
+      "y": 50.8848
     },
     {
-      "siteName": "B208-CLINIQUE_ST_JEAN_BXL",
-      "x": 4.3597,
-      "y": 50.8539
+      "siteName": "cluster_56",
+      "x": 4.3988,
+      "y": 50.8392
     },
     {
-      "siteName": "B233-PALAIS_DE_BOZAR",
-      "x": 4.3598,
-      "y": 50.8437
+      "siteName": "cluster_58",
+      "x": 4.3996,
+      "y": 50.8674
     },
     {
-      "siteName": "B001-BXL_REGENCE",
-      "x": 4.3597,
-      "y": 50.8404
+      "siteName": "cluster_59",
+      "x": 4.3278,
+      "y": 50.8187
     },
     {
-      "siteName": "B143-BXL_BRIQUETTERIE",
-      "x": 4.3514,
-      "y": 50.8733
+      "siteName": "cluster_60",
+      "x": 4.3221,
+      "y": 50.8541
     },
     {
-      "siteName": "B126-BXL_CITE_MODELE_10",
-      "x": 4.3228,
-      "y": 50.8971
+      "siteName": "cluster_62",
+      "x": 4.3385,
+      "y": 50.865
     },
     {
-      "siteName": "B352-MOL_CHAUSSEE_DE_GAND",
-      "x": 4.3299,
-      "y": 50.8568
+      "siteName": "cluster_63",
+      "x": 4.3132,
+      "y": 50.8748
     },
     {
-      "siteName": "B106-NMBS_ZENNEW_DELTA_2G",
-      "x": 4.3312,
-      "y": 50.8329
+      "siteName": "cluster_64",
+      "x": 4.3428,
+      "y": 50.8275
     },
     {
-      "siteName": "B023-METRO_SIMONIS",
-      "x": 4.3307,
-      "y": 50.8632
-    },
-    {
-      "siteName": "B138-EC_JOSEPH_II",
-      "x": 4.373,
-      "y": 50.8458
-    },
-    {
-      "siteName": "B140-NMBS_RING_STATION",
-      "x": 4.3248,
-      "y": 50.832
-    },
-    {
-      "siteName": "B176-VLO_KAB_MARTELAAR_2G",
-      "x": 4.356,
-      "y": 50.8512
-    },
-    {
-      "siteName": "B221-FED_DE_KAMER",
-      "x": 4.3668,
-      "y": 50.848
-    },
-    {
-      "siteName": "B045-METRO_BOTANIQUE_BTS",
-      "x": 4.3651,
-      "y": 50.8534
-    },
-    {
-      "siteName": "B086-SCH_RUE_ELIE",
-      "x": 4.3866,
-      "y": 50.8715
-    },
-    {
-      "siteName": "B084-SCH_AV_DEJASE",
-      "x": 4.3897,
-      "y": 50.8692
-    },
-    {
-      "siteName": "B015-BXL_ROI_BAUDOUIN",
-      "x": 4.3341,
-      "y": 50.8949
-    },
-    {
-      "siteName": "B005-BXL_LOUISA",
-      "x": 4.354,
-      "y": 50.8358
-    },
-    {
-      "siteName": "B035-AND_ELOY",
-      "x": 4.3272,
-      "y": 50.836
-    },
-    {
-      "siteName": "B371-SJO_RUE_TRAVERSIERE",
+      "siteName": "cluster_65",
       "x": 4.3709,
       "y": 50.8542
     },
     {
-      "siteName": "B286-IXL_EENDRACHTSTRAAT",
-      "x": 4.3621,
-      "y": 50.8343
+      "siteName": "cluster_66",
+      "x": 4.3441,
+      "y": 50.8444
     },
     {
-      "siteName": "B049-METRO_ANNEESSENS_BTS",
-      "x": 4.344,
-      "y": 50.8434
-    },
-    {
-      "siteName": "B026-METRO_BOCKSTAEL",
-      "x": 4.3476,
-      "y": 50.8799
-    },
-    {
-      "siteName": "B218-SRB",
-      "x": 4.3622,
-      "y": 50.8478
-    },
-    {
-      "siteName": "B158-BNP_KANSELARIJ",
-      "x": 4.3611,
-      "y": 50.8465
-    },
-    {
-      "siteName": "B051-IXL_CHAUSSEE_IXELLES",
-      "x": 4.3642,
-      "y": 50.8348
-    },
-    {
-      "siteName": "B014-CONGRES_STATION",
-      "x": 4.3619,
-      "y": 50.852
-    },
-    {
-      "siteName": "B032-KBC_HAVENLAAN2",
-      "x": 4.3454,
-      "y": 50.8603
-    },
-    {
-      "siteName": "B223-REP_ESTONIA_EU_2G1",
-      "x": 4.3698,
-      "y": 50.8436
-    },
-    {
-      "siteName": "B147-ANSPACH_SHOPPING",
-      "x": 4.3507,
-      "y": 50.8489
-    },
-    {
-      "siteName": "B011-BXL_PALAIS_DE_JUSTICE",
-      "x": 4.3511,
-      "y": 50.8368
-    },
-    {
-      "siteName": "B056-METRO_CLEMENCEAU_BTS",
-      "x": 4.3309,
-      "y": 50.8422
-    },
-    {
-      "siteName": "B016-BXL_RUE_DE_NAMUR",
-      "x": 4.3611,
-      "y": 50.8393
-    },
-    {
-      "siteName": "B041-BXL_SHERATON_HOTEL",
-      "x": 4.3577,
+      "siteName": "cluster_67",
+      "x": 4.3322,
       "y": 50.856
     },
     {
-      "siteName": "B047-METRO_ROGIER_BTS",
-      "x": 4.3582,
-      "y": 50.8552
+      "siteName": "cluster_69",
+      "x": 4.3666,
+      "y": 50.8406
     },
     {
-      "siteName": "B057-METRO_DELACROIX",
-      "x": 4.3235,
-      "y": 50.8457
+      "siteName": "cluster_71",
+      "x": 4.3314,
+      "y": 50.8774
     },
     {
-      "siteName": "B133-ING_MARNIX_24",
-      "x": 4.3664,
-      "y": 50.8401
+      "siteName": "cluster_73",
+      "x": 4.3469,
+      "y": 50.8603
     },
     {
-      "siteName": "B148-EGMONT_PALACE",
-      "x": 4.3585,
-      "y": 50.8381
+      "siteName": "cluster_74",
+      "x": 4.3548,
+      "y": 50.8768
     },
     {
-      "siteName": "B051-METRO_ZUIDSTADION_BTS",
-      "x": 4.3369,
-      "y": 50.8366
+      "siteName": "cluster_75",
+      "x": 4.3165,
+      "y": 50.8483
     },
     {
-      "siteName": "B011-BXL_KEN",
-      "x": 4.3565,
-      "y": 50.8534
+      "siteName": "cluster_76",
+      "x": 4.3226,
+      "y": 50.8422
     },
     {
-      "siteName": "B023-BXL_ECOLE_CADETS_PKG",
-      "x": 4.3536,
-      "y": 50.8836
+      "siteName": "cluster_77",
+      "x": 4.3237,
+      "y": 50.8621
     },
     {
-      "siteName": "B052-METRO_MUNT_HOF_BTS",
-      "x": 4.3494,
-      "y": 50.8339
+      "siteName": "cluster_78",
+      "x": 4.3556,
+      "y": 50.8278
     },
     {
-      "siteName": "B031-PALAIS_DES_CONGRES",
-      "x": 4.3583,
-      "y": 50.8421
+      "siteName": "cluster_80",
+      "x": 4.3507,
+      "y": 50.8377
     },
     {
-      "siteName": "B108-METROPOLE_2G",
-      "x": 4.3534,
-      "y": 50.8512
+      "siteName": "cluster_81",
+      "x": 4.3248,
+      "y": 50.832
     },
     {
-      "siteName": "B004-BXL_COMEDIENS",
-      "x": 4.3577,
-      "y": 50.8504
+      "siteName": "cluster_82",
+      "x": 4.3579,
+      "y": 50.855
     },
     {
-      "siteName": "B047-STG_VICTOIRE",
+      "siteName": "cluster_83",
+      "x": 4.38,
+      "y": 50.8426
+    },
+    {
+      "siteName": "cluster_84",
+      "x": 4.3797,
+      "y": 50.8257
+    },
+    {
+      "siteName": "cluster_85",
+      "x": 4.3628,
+      "y": 50.8293
+    },
+    {
+      "siteName": "cluster_86",
+      "x": 4.386,
+      "y": 50.8663
+    },
+    {
+      "siteName": "cluster_88",
+      "x": 4.3726,
+      "y": 50.8621
+    },
+    {
+      "siteName": "cluster_93",
+      "x": 4.3903,
+      "y": 50.8451
+    },
+    {
+      "siteName": "cluster_94",
+      "x": 4.312,
+      "y": 50.843
+    },
+    {
+      "siteName": "cluster_95",
+      "x": 4.3773,
+      "y": 50.8515
+    },
+    {
+      "siteName": "cluster_97",
+      "x": 4.3438,
+      "y": 50.87
+    },
+    {
+      "siteName": "cluster_98",
+      "x": 4.374,
+      "y": 50.8383
+    },
+    {
+      "siteName": "cluster_99",
+      "x": 4.359,
+      "y": 50.8644
+    },
+    {
+      "siteName": "cluster_100",
+      "x": 4.39,
+      "y": 50.8212
+    },
+    {
+      "siteName": "cluster_105",
+      "x": 4.3378,
+      "y": 50.843
+    },
+    {
+      "siteName": "cluster_106",
+      "x": 4.3926,
+      "y": 50.8331
+    },
+    {
+      "siteName": "cluster_108",
+      "x": 4.3362,
+      "y": 50.8728
+    },
+    {
+      "siteName": "cluster_110",
+      "x": 4.3802,
+      "y": 50.8734
+    },
+    {
+      "siteName": "cluster_111",
+      "x": 4.338,
+      "y": 50.8315
+    },
+    {
+      "siteName": "cluster_112",
+      "x": 4.3705,
+      "y": 50.8342
+    },
+    {
+      "siteName": "cluster_113",
+      "x": 4.3896,
+      "y": 50.8565
+    },
+    {
+      "siteName": "cluster_114",
+      "x": 4.3303,
+      "y": 50.8636
+    },
+    {
+      "siteName": "cluster_115",
+      "x": 4.3239,
+      "y": 50.8712
+    },
+    {
+      "siteName": "cluster_116",
+      "x": 4.3423,
+      "y": 50.8212
+    },
+    {
+      "siteName": "cluster_120",
+      "x": 4.3591,
+      "y": 50.8411
+    },
+    {
+      "siteName": "cluster_121",
+      "x": 4.3658,
+      "y": 50.8543
+    },
+    {
+      "siteName": "cluster_122",
+      "x": 4.377,
+      "y": 50.8678
+    },
+    {
+      "siteName": "cluster_123",
+      "x": 4.3558,
+      "y": 50.8598
+    },
+    {
+      "siteName": "cluster_124",
       "x": 4.3465,
       "y": 50.8317
     },
     {
-      "siteName": "B021-METRO_ETANGS_NOIRS",
-      "x": 4.3332,
-      "y": 50.8572
+      "siteName": "cluster_125",
+      "x": 4.3576,
+      "y": 50.8465
     },
     {
-      "siteName": "B054-TOISON_DOR_2G",
-      "x": 4.3603,
-      "y": 50.8367
+      "siteName": "cluster_126",
+      "x": 4.3989,
+      "y": 50.8559
     },
     {
-      "siteName": "B200-TOUR_ET_TAXIS",
-      "x": 4.3473,
-      "y": 50.865
+      "siteName": "cluster_127",
+      "x": 4.349,
+      "y": 50.8266
     },
     {
-      "siteName": "B120-TOTAL_BRUSSELS",
-      "x": 4.3709,
-      "y": 50.8447
+      "siteName": "cluster_128",
+      "x": 4.3315,
+      "y": 50.8342
     },
     {
-      "siteName": "B075-AND_PLANTIN",
-      "x": 4.3373,
-      "y": 50.8437
+      "siteName": "cluster_131",
+      "x": 4.3675,
+      "y": 50.8493
     },
     {
-      "siteName": "B127-EC_SPA2",
-      "x": 4.3737,
-      "y": 50.8446
+      "siteName": "cluster_132",
+      "x": 4.3739,
+      "y": 50.8774
+    },
+    {
+      "siteName": "cluster_133",
+      "x": 4.3818,
+      "y": 50.8372
+    },
+    {
+      "siteName": "cluster_134",
+      "x": 4.3268,
+      "y": 50.8536
+    },
+    {
+      "siteName": "cluster_135",
+      "x": 4.3127,
+      "y": 50.859
+    },
+    {
+      "siteName": "cluster_136",
+      "x": 4.3368,
+      "y": 50.837
+    },
+    {
+      "siteName": "cluster_137",
+      "x": 4.3586,
+      "y": 50.8221
+    },
+    {
+      "siteName": "cluster_138",
+      "x": 4.3351,
+      "y": 50.8245
+    },
+    {
+      "siteName": "cluster_139",
+      "x": 4.3866,
+      "y": 50.8715
+    },
+    {
+      "siteName": "cluster_141",
+      "x": 4.3843,
+      "y": 50.8311
+    },
+    {
+      "siteName": "cluster_143",
+      "x": 4.3131,
+      "y": 50.8336
+    },
+    {
+      "siteName": "cluster_144",
+      "x": 4.3514,
+      "y": 50.8733
+    },
+    {
+      "siteName": "cluster_146",
+      "x": 4.3641,
+      "y": 50.8343
+    },
+    {
+      "siteName": "cluster_147",
+      "x": 4.3272,
+      "y": 50.836
+    },
+    {
+      "siteName": "cluster_148",
+      "x": 4.3943,
+      "y": 50.8403
+    },
+    {
+      "siteName": "cluster_150",
+      "x": 4.3699,
+      "y": 50.8658
+    },
+    {
+      "siteName": "cluster_151",
+      "x": 4.3428,
+      "y": 50.8806
+    },
+    {
+      "siteName": "cluster_152",
+      "x": 4.3405,
+      "y": 50.84
+    },
+    {
+      "siteName": "cluster_153",
+      "x": 4.331,
+      "y": 50.8226
+    },
+    {
+      "siteName": "cluster_154",
+      "x": 4.3546,
+      "y": 50.8399
+    },
+    {
+      "siteName": "cluster_156",
+      "x": 4.3756,
+      "y": 50.8267
+    },
+    {
+      "siteName": "cluster_157",
+      "x": 4.3491,
+      "y": 50.8812
+    },
+    {
+      "siteName": "cluster_160",
+      "x": 4.3713,
+      "y": 50.8416
+    },
+    {
+      "siteName": "cluster_161",
+      "x": 4.3896,
+      "y": 50.8494
+    },
+    {
+      "siteName": "cluster_162",
+      "x": 4.3317,
+      "y": 50.8426
+    },
+    {
+      "siteName": "cluster_163",
+      "x": 4.3667,
+      "y": 50.8272
+    },
+    {
+      "siteName": "cluster_165",
+      "x": 4.3631,
+      "y": 50.8665
+    },
+    {
+      "siteName": "cluster_166",
+      "x": 4.3597,
+      "y": 50.8519
+    },
+    {
+      "siteName": "cluster_167",
+      "x": 4.3552,
+      "y": 50.8363
+    },
+    {
+      "siteName": "cluster_168",
+      "x": 4.3664,
+      "y": 50.8217
+    },
+    {
+      "siteName": "cluster_170",
+      "x": 4.353,
+      "y": 50.818
+    },
+    {
+      "siteName": "cluster_171",
+      "x": 4.3188,
+      "y": 50.8576
+    },
+    {
+      "siteName": "cluster_172",
+      "x": 4.3463,
+      "y": 50.855
+    },
+    {
+      "siteName": "cluster_173",
+      "x": 4.3821,
+      "y": 50.8208
+    },
+    {
+      "siteName": "cluster_174",
+      "x": 4.3906,
+      "y": 50.8369
+    },
+    {
+      "siteName": "cluster_175",
+      "x": 4.389,
+      "y": 50.8759
+    },
+    {
+      "siteName": "cluster_176",
+      "x": 4.3542,
+      "y": 50.8513
+    },
+    {
+      "siteName": "cluster_177",
+      "x": 4.385,
+      "y": 50.855
+    },
+    {
+      "siteName": "cluster_178",
+      "x": 4.3821,
+      "y": 50.8478
+    },
+    {
+      "siteName": "cluster_179",
+      "x": 4.3977,
+      "y": 50.8201
+    },
+    {
+      "siteName": "cluster_180",
+      "x": 4.3699,
+      "y": 50.8592
+    },
+    {
+      "siteName": "cluster_181",
+      "x": 4.3834,
+      "y": 50.8438
+    },
+    {
+      "siteName": "cluster_182",
+      "x": 4.3919,
+      "y": 50.8533
+    },
+    {
+      "siteName": "cluster_184",
+      "x": 4.3484,
+      "y": 50.8345
+    },
+    {
+      "siteName": "cluster_185",
+      "x": 4.3897,
+      "y": 50.8692
+    },
+    {
+      "siteName": "cluster_186",
+      "x": 4.37,
+      "y": 50.8448
+    },
+    {
+      "siteName": "cluster_187",
+      "x": 4.3284,
+      "y": 50.8696
+    },
+    {
+      "siteName": "cluster_189",
+      "x": 4.3598,
+      "y": 50.8597
+    },
+    {
+      "siteName": "cluster_190",
+      "x": 4.3361,
+      "y": 50.8596
+    },
+    {
+      "siteName": "cluster_191",
+      "x": 4.3619,
+      "y": 50.8383
+    },
+    {
+      "siteName": "cluster_192",
+      "x": 4.3939,
+      "y": 50.8366
+    },
+    {
+      "siteName": "cluster_193",
+      "x": 4.3996,
+      "y": 50.8356
+    },
+    {
+      "siteName": "cluster_194",
+      "x": 4.3536,
+      "y": 50.8836
+    },
+    {
+      "siteName": "cluster_195",
+      "x": 4.3235,
+      "y": 50.8457
+    },
+    {
+      "siteName": "cluster_196",
+      "x": 4.3991,
+      "y": 50.8428
+    },
+    {
+      "siteName": "cluster_197",
+      "x": 4.3775,
+      "y": 50.8551
+    },
+    {
+      "siteName": "cluster_198",
+      "x": 4.3488,
+      "y": 50.8484
+    },
+    {
+      "siteName": "cluster_199",
+      "x": 4.3437,
+      "y": 50.8321
     }
   ]
 }
