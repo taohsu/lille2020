@@ -71,7 +71,7 @@ function setup() {
   createCanvas(600, 600);
   DX = 1.0 / N;
   // coef = DIFFUSE_COEF * DT / (DX * DX);
-  coef = 0.2;
+  coef = 0.15;
 
   // console.log("diffuse number: " + coef);
     
@@ -198,7 +198,7 @@ image(img, 0, 0);
     for (var y = 1; y < N + 1; y++) {
       for (var x = 1; x < N + 1; x++) {
         var d = sqrt(sq((x - 1) * w - locationx[i]) + sq((y - 1) * h - locationy[i]));
-        var s = 0.5 * pow(max(width - d*4, 0) / width, map(trafficall[i][index], tminMax[1], tminMax[0], 2, 20));
+        var s = 0.5 * pow(max(width - d*4*reso, 0) / width, map(trafficall[i][index], tminMax[1], tminMax[0], 2, 20));
         // var c = color(frameCount % 360, 100, 100);
         // var hue = round(map(energyall[i][index], 0.5, 1.6, 180, 360)) % 360;
         // console.log(hue);
