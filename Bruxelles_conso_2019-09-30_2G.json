@@ -1,4 +1,12 @@
 {
+  "trafficMinMax": [
+    0.0,
+    685.997
+  ],
+  "energyMiMax": [
+    0.148,
+    3.25
+  ],
   "siteConso": [
     {
       "siteName": "cluster_4",
