@@ -164,7 +164,7 @@ function createGrid() {
 function draw() {
   
   index = floor(inde) % 24;
-  inde = inde + 0.1;
+  inde = inde + 0.5;
     
   if (index == 0) {
      trafficArray = [];
