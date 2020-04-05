@@ -71,7 +71,7 @@ function setup() {
   createCanvas(600, 600);
   DX = 1.0 / N;
   // coef = DIFFUSE_COEF * DT / (DX * DX);
-  coef = 0.2;
+  coef = 0.3;
 
   // console.log("diffuse number: " + coef);
     
@@ -222,7 +222,7 @@ image(img, 0, 0);
                          .add(grid[y + 1][x])
                          .add(grid[y][x - 1])
                          .add(grid[y][x + 1])
-                         .add(p5.Vector.mult(grid[y][x], -4))
+                         .add(p5.Vector.mult(grid[y][x], -5))
                          .mult(coef));
     }
   }
