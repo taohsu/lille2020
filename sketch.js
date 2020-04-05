@@ -257,7 +257,8 @@ image(img, 0, 0);
   translate(10,480);
   text('Data traffic: ', 0, -10);
   for (var i = 0; i < index; i++) {
-    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
+//    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
+      rect(2*i,20,2,map(trafficArray[i], 0, 92, 0, -20));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
@@ -268,7 +269,8 @@ image(img, 0, 0);
   translate(10,556);
   text('Energy consumption: ', 0, -10);
   for (var i = 0; i < index; i++) {
-    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
+//    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
+      rect(2*i,20,2,map(energyArray[i], 0, 1.5, 0, -20));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
