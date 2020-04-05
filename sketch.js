@@ -35,6 +35,10 @@ var siteRangeX2;
 var siteRangeY1;
 var siteRangeY2;
 var reso;
+var tmin;
+var tmax;
+var emin;
+var emax;
 
 
 var tminMax = [];
@@ -103,6 +107,10 @@ function setup() {
       siteRangeY1 = 50.855198;
       siteRangeY2 = 50.794894;
       reso = 1;
+      tmin = 0;
+      tmax = 49;
+      emin = 0;
+      emax = 0.9;
   } else if (city === 'Bruxelles') {
 //      siteRangeX1 = 4.280566;
 //      siteRangeX2 = 4.454363;
@@ -113,6 +121,10 @@ function setup() {
       siteRangeY1 = 50.890385;
       siteRangeY2 = 50.811246;
       reso = 1.5;
+      tmin = 0;
+      tmax = 92;
+      emin = 0;
+      emax = 1.5;
   }
     
    N = 30*2*reso;
@@ -262,7 +274,7 @@ image(img, 0, 0);
   text('Data traffic: ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
-      rect(2*i,20,2,map(trafficArray[i], 0, 92, 0, -20));
+      rect(2*i,20,2,map(trafficArray[i], tmin, tmax, 0, -20));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
@@ -274,7 +286,7 @@ image(img, 0, 0);
   text('Energy consumption: ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
-      rect(2*i,20,2,map(energyArray[i], 0, 1.5, 0, -20));
+      rect(2*i,20,2,map(energyArray[i], emin, emax, 0, -20));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
