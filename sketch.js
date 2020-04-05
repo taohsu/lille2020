@@ -233,10 +233,12 @@ image(img, 0, 0);
   
   trafficArray[index] = trafficPerhour;
   console.log(trafficArray);
+  console.log('tmin' + min(trafficArray));
+  console.log('tmax' + max(trafficArray));
   energyArray[index] = energyPerhour;
   console.log(energyArray);
-  console.log('min' + min(energyArray));
-  console.log('max' + max(energyArray));
+  console.log('emin' + min(energyArray));
+  console.log('emax' + max(energyArray));
   
   trafficTotal = trafficArray.reduce(getSum);
   energyTotal = energyArray.reduce(getSum);
