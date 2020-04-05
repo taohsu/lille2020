@@ -104,10 +104,14 @@ function setup() {
       siteRangeY2 = 50.794894;
       reso = 1;
   } else if (city === 'Bruxelles') {
-      siteRangeX1 = 4.280566;
-      siteRangeX2 = 4.454363;
-      siteRangeY1 = 50.905324;
-      siteRangeY2 = 50.796123;
+//      siteRangeX1 = 4.280566;
+//      siteRangeX2 = 4.454363;
+//      siteRangeY1 = 50.905324;
+//      siteRangeY2 = 50.796123;
+      siteRangeX1 = 4.293294;
+      siteRangeX2 = 4.419026;
+      siteRangeY1 = 50.890385;
+      siteRangeY2 = 50.811246;
       reso = 2;
   }
     
