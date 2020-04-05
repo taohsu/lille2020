@@ -222,7 +222,7 @@ image(img, 0, 0);
                          .add(grid[y + 1][x])
                          .add(grid[y][x - 1])
                          .add(grid[y][x + 1])
-                         .add(p5.Vector.mult(grid[y][x], -5))
+                         .add(p5.Vector.mult(grid[y][x], -4))
                          .mult(coef));
     }
   }
