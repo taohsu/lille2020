@@ -112,7 +112,7 @@ function setup() {
       siteRangeX2 = 4.419026;
       siteRangeY1 = 50.890385;
       siteRangeY2 = 50.811246;
-      reso = 2;
+      reso = 1.5;
   }
     
    N = 30*2*reso;
