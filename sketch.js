@@ -109,7 +109,7 @@ function setup() {
       reso = 1;
       tmin = 0;
       tmax = 49;
-      emin = 0;
+      emin = 0.1;
       emax = 0.9;
   } else if (city === 'Bruxelles') {
 //      siteRangeX1 = 4.280566;
@@ -123,7 +123,7 @@ function setup() {
       reso = 1.5;
       tmin = 0;
       tmax = 92;
-      emin = 0;
+      emin = 0.1;
       emax = 1.5;
   }
     
@@ -219,7 +219,8 @@ image(img, 0, 0);
         // var c = color(frameCount % 360, 100, 100);
         // var hue = round(map(energyall[i][index], 0.5, 1.6, 180, 360)) % 360;
         // console.log(hue);
-        var c = color(round(map(energyall[i][index], 0.006, emax, 180, 360)) % 360, 100, 100);
+        var c = color(round(map(energyall[i][index], emin, emax, 180, 360)) % 360, 100, 100);
+//        var c = color(round(map(energyall[i][index], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
         grid[y][x].add(createVector(red(c) * s, green(c) * s, blue(c) * s));
       }
     }
