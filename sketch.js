@@ -219,7 +219,7 @@ image(img, 0, 0);
         // var c = color(frameCount % 360, 100, 100);
         // var hue = round(map(energyall[i][index], 0.5, 1.6, 180, 360)) % 360;
         // console.log(hue);
-        var c = color(round(map(energyall[i][index], emin, emax, 180, 360)) % 360, 100, 100);
+        var c = color(round(map(energyall[i][index], 0.006, emax, 180, 360)) % 360, 100, 100);
         grid[y][x].add(createVector(red(c) * s, green(c) * s, blue(c) * s));
       }
     }
