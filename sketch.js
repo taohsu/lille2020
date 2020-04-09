@@ -215,11 +215,11 @@ image(img, 0, 0);
       for (var x = 1; x < N + 1; x++) {
         var d = sqrt(sq((x - 1) * w - locationx[i]) + sq((y - 1) * h - locationy[i]));
 //        var s = 0.3 * pow(sq(max(width - d*4*reso, 0) / width), map(trafficall[i][index], tminMax[1], tminMax[0], 2, 20));
-         var s = 0.5 * pow(max(width - d*4*reso, 0) / width, map(trafficall[i][index], tminMax[1], tminMax[0], 2, 20));
+         var s = 0.5 * pow(max(width - d*4*reso, 0) / width, map(trafficall[i][index], tmax, tmin, 2, 20));
         // var c = color(frameCount % 360, 100, 100);
         // var hue = round(map(energyall[i][index], 0.5, 1.6, 180, 360)) % 360;
         // console.log(hue);
-        var c = color(round(map(energyall[i][index], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+        var c = color(round(map(energyall[i][index], emin, emax, 180, 360)) % 360, 100, 100);
         grid[y][x].add(createVector(red(c) * s, green(c) * s, blue(c) * s));
       }
     }
