@@ -267,7 +267,7 @@ image(img, 0, 0);
   textSize(10);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
-  text('10:67', 10, height - 200);
+  text('10:68', 10, height - 200);
   text(city + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 10, height - 175);
   text(antenna + '_sites: ' + siteCount, 10, height - 160);
 
