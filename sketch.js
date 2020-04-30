@@ -271,12 +271,17 @@ image(img, 0, 0);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
 //  text('11:06', 10, height - 200);
-  text(city + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 10, height - 175);
-  text(antenna + '_sites: ' + siteCount, 10, height - 160);
+  push();
+  translate(10,556);
+  text(antenna, 0, -10);
+  text(city, 0, 5);
+  text(daydayday + ' ' + date, 0, 20);
+  text(index + 'h', 0, 35);
+  pop();
 
   fill(255);
   push();
-  translate(10,480);
+  translate(130,556);
   text('Data traffic: ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
@@ -288,7 +293,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(10,556);
+  translate(250,556);
   text('Energy consumption: ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
@@ -298,6 +303,38 @@ image(img, 0, 0);
   rect(0,20,1,-20);
   text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
+    
+//  textSize(10);
+//  colorMode(RGB, 255, 255, 255);
+//  fill(255, 255, 255);
+////  text('11:06', 10, height - 200);
+//  text(city + ' ' + date + ' ' + daydayday + ' ' + index + 'h', 10, height - 175);
+//  text(antenna + '_sites: ' + siteCount, 10, height - 160);
+//
+//  fill(255);
+//  push();
+//  translate(10,480);
+//  text('Data traffic: ', 0, -10);
+//  for (var i = 0; i < index; i++) {
+////    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
+//      rect(2*i,20,2,map(trafficArray[i], tmin, tmax, 0, -20));
+//  }
+//  rect(0,20,48,1);
+//  rect(0,20,1,-20);
+//  text(trafficPerhour.toFixed(2) + ' GB/h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 0, 36);
+//  pop();
+//  
+//  push();
+//  translate(10,556);
+//  text('Energy consumption: ', 0, -10);
+//  for (var i = 0; i < index; i++) {
+////    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
+//      rect(2*i,20,2,map(energyArray[i], emin, emax, 0, -20));
+//  }
+//  rect(0,20,48,1);
+//  rect(0,20,1,-20);
+//  text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
+//  pop();
 
 
 }
