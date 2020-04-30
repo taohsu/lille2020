@@ -293,7 +293,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(300,556);
+  translate(320,556);
   text('Energy consumption: ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
