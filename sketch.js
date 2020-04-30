@@ -276,7 +276,7 @@ image(img, 0, 0);
   text(antenna, 0, -10);
   text(city, 0, 5);
   text(daydayday + ' ' + date, 0, 20);
-  fill('green');
+  fill('#9FFA5E');
   text(index + 'h', 0, 35);
   pop();
 
