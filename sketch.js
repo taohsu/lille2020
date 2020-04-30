@@ -112,7 +112,7 @@ function setup() {
       tmax = 49;
       emin = 0.1;
       emax = 1.1;
-      tminmax = 730;
+      tminmax = 160;
   } else if (city === 'Bruxelles') {
 //      siteRangeX1 = 4.280566;
 //      siteRangeX2 = 4.454363;
@@ -127,7 +127,7 @@ function setup() {
       tmax = 92;
       emin = 0;
       emax = 1.5;
-      tminmax = 160;
+      tminmax = 730;
   }
     
    N = 30*2*reso;
