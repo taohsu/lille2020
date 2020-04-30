@@ -281,7 +281,7 @@ image(img, 0, 0);
 
   fill(255);
   push();
-  translate(130,556);
+  translate(136,556);
   text('Data traffic: ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
