@@ -102,7 +102,7 @@ function setup() {
       daydayday = 'Saturday';
   }
     
-  if (city === 'COURTRAI') {
+  if (city === 'Courtrai') {
       siteRangeX1 = 3.209877;
       siteRangeX2 = 3.305424;
       siteRangeY1 = 50.855198;
