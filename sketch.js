@@ -278,7 +278,7 @@ image(img, 0, 0);
   translate(10,556);
   text(antenna, 0, -10);
   textStyle(BOLD);
-  text(city, 0, 5);
+  text(displaycity, 0, 5);
   textStyle(NORMAL);
   text(daydayday + ' ' + date, 0, 20);
   fill('#9FFA5E');
