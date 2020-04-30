@@ -40,6 +40,7 @@ var tmax;
 var emin;
 var emax;
 var tminmax;
+var displaycity;
 
 
 var tminMax = [];
@@ -113,6 +114,7 @@ function setup() {
       emin = 0.1;
       emax = 1.1;
       tminmax = 160;
+      displaycity = 'COURTRAI';
   } else if (city === 'Bruxelles') {
 //      siteRangeX1 = 4.280566;
 //      siteRangeX2 = 4.454363;
@@ -128,6 +130,7 @@ function setup() {
       emin = 0;
       emax = 1.5;
       tminmax = 730;
+      displaycity = 'BRUXELLES';
   }
     
    N = 30*2*reso;
