@@ -195,6 +195,9 @@ function draw() {
   if (index == 0) {
      trafficArray = [];
      energyArray = [];
+     trafficPerhourArray = [];
+     energyPerhourArray = [];
+      
   }
   
   // console.log(index);
