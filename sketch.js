@@ -318,7 +318,7 @@ image(img, 0, 0);
   color(180 % 360, 100, 100);
   rect(0,10,10,10);
   color(360 % 360, 100, 100);
-  rect(0,10,10,10);
+  rect(10,10,10,10);
 //  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 1 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
 //  rect(10,10,10,10);
 //  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 2 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
