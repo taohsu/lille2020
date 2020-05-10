@@ -313,7 +313,7 @@ image(img, 0, 0);
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
-  text(trafficPerhourAll.toFixed(2) + ' GB/h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 0, 36);
+  text(trafficArray[i].toFixed(2) + ' GB/h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 0, 36);
   pop();
   
   push();
@@ -325,7 +325,7 @@ image(img, 0, 0);
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
-  text(energyPerhourAll.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
+  text(energyArray[i].toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
     
   push();
