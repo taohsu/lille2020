@@ -273,11 +273,18 @@ image(img, 0, 0);
   
   // }
   
-  trafficArray[index] = trafficPerhourAll;
+    if (index == 0) {
+        trafficArray[index] = trafficPerhourAll;
+        energyArray[index] = energyPerhourAll;
+        } else {
+        trafficArray[index] = trafficPerhourAll - trafficArray[index - 1];
+        energyArray[index] = energyPerhourAll - energyArray[index - 1];
+        }
+  
   console.log(trafficArray);
   console.log('tmin' + min(trafficArray));
   console.log('tmax' + max(trafficArray));
-  energyArray[index] = energyPerhourAll;
+  
   console.log(energyArray);
   console.log('emin' + min(energyArray));
   console.log('emax' + max(energyArray));
