@@ -313,8 +313,23 @@ image(img, 0, 0);
   push();
   translate(440,556);
   text('ENERGY PER SITE', 0, -10);
-  rect(0,0,10,10);
-  rect(10,0,10,10);
+    
+  colorMode(HSB, 360, 150, 50);
+  color(round(map(eminMax[0], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  rect(0,10,5,10);
+  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 1 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  rect(10,10,10,10);
+  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 2 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  rect(20,10,10,10);
+  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 3 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  rect(30,10,10,10);
+  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 4 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  rect(40,10,10,10);
+  color(round(map(eminMax[1], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  rect(50,10,5,10);
+    
+  colorMode(RGB, 255, 255, 255);
+  fill(255, 255, 255);
   
   text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
