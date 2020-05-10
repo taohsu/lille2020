@@ -313,8 +313,8 @@ image(img, 0, 0);
   push();
   translate(440,556);
   text('ENERGY PER SITE', 0, -10);
-  rect(0,-20,10,10);
-  rect(10,-20,10,10);
+  rect(0,-10,10,10);
+  rect(10,-10,10,10);
   
   text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
