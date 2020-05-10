@@ -243,9 +243,9 @@ image(img, 0, 0);
   }
   // }
        // sum all sites per hour
-//  trafficPerhourAll = trafficPerhourArray.reduce(getSum);
+  trafficPerhourAll = trafficPerhourArray.slice(trafficPerhourArray.length - locationx.length, trafficPerhourArray.length).reduce(getSum);
   console.log(trafficPerhourArray.slice(trafficPerhourArray.length - locationx.length, trafficPerhourArray.length));
-//  energyPerhourAll = energyPerhourArray.reduce(getSum);
+  energyPerhourAll = (energyPerhourArray.slice(energyPerhourArray.length - locationx.length, energyPerhourArray.length).reduce(getSum);
   console.log(energyPerhourArray.slice(energyPerhourArray.length - locationx.length, energyPerhourArray.length));
  
     
@@ -273,13 +273,9 @@ image(img, 0, 0);
   
   // }
   
-    if (index == 0) {
+    
         trafficArray[index] = trafficPerhourAll;
         energyArray[index] = energyPerhourAll;
-        } else {
-        trafficArray[index] = trafficPerhourAll - trafficArray[index - 1];
-        energyArray[index] = energyPerhourAll - energyArray[index - 1];
-        }
   
   console.log(trafficArray);
   console.log('tmin' + min(trafficArray));
