@@ -288,7 +288,7 @@ image(img, 0, 0);
   fill(255);
   push();
   translate(136,556);
-  text('DATA TRAFFIC: ', 0, -10);
+  text('DATA TRAFFIC ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
       rect(2*i,20,2,map(trafficArray[i], tmin, tmax, 0, -20));
@@ -300,13 +300,23 @@ image(img, 0, 0);
   
   push();
   translate(300,556);
-  text('ENERGY COMSUMPTION: ', 0, -10);
+  text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
       rect(2*i,20,2,map(energyArray[i], emin, emax, 0, -20));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
+  text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
+  pop();
+    
+  push();
+  translate(440,556);
+  text('ENERGY PER SITE', 0, -10);
+  for (var i = 0; i < index; i++) {
+
+      rect(10*i,20,10,10);
+  }
   text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
     
