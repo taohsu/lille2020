@@ -225,10 +225,6 @@ image(img, 0, 0);
     energyPerhour = energyall[i][index];
     append(trafficPerhourArray, trafficPerhour);
     append(energyPerhourArray, energyPerhour);
-      if(trafficPerhourArray.length > locationx.length) {
-         trafficPerhourArray = [];
-         append(trafficPerhourArray, trafficPerhour);
-         }
     
     for (var y = 1; y < N + 1; y++) {
       for (var x = 1; x < N + 1; x++) {
@@ -248,9 +244,9 @@ image(img, 0, 0);
   // }
        // sum all sites per hour
 //  trafficPerhourAll = trafficPerhourArray.reduce(getSum);
-  console.log(trafficPerhourArray);
+  console.log(trafficPerhourArray.slice(trafficPerhourArray.length - locationx.length, trafficPerhourArray.length));
 //  energyPerhourAll = energyPerhourArray.reduce(getSum);
-  console.log(energyPerhourArray);
+  console.log(energyPerhourArray.slice(energyPerhourArray.length - locationx.length, energyPerhourArray.length));
  
     
     
