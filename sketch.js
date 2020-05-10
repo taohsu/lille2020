@@ -54,6 +54,8 @@ var trafficTotal = 0;
 var trafficArray = [];
 
 var energyPerhour = 0;
+var energyPerhourArray = [];
+var energyPerhourAll;
 var energyTotal = 0;
 var energyArray = [];
 
@@ -216,6 +218,9 @@ image(img, 0, 0);
     
     trafficPerhour = trafficall[i][index];
     energyPerhour = energyall[i][index];
+    append(energyPerhourArray, energyPerhour);
+    energyPerhourAll = energyPerhourArray.reduce(getSum);
+    console.log('++' + energyPerhourAll);
     
     for (var y = 1; y < N + 1; y++) {
       for (var x = 1; x < N + 1; x++) {
@@ -317,6 +322,7 @@ image(img, 0, 0);
   text('Max', 65, 5);
   text(eminMax[0].toFixed(2), 0, 20);
   text(eminMax[1].toFixed(2), 65, 20);
+  text('KWh/h'.toFixed(2), 0, 20);
     
   colorMode(HSB, 360, 150, 50);
   fill(180, 100, 30);
