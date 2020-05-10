@@ -114,9 +114,9 @@ function setup() {
       siteRangeY2 = 50.794894;
       reso = 1;
       tmin = 0;
-      tmax = 46000;
+      tmax = 1600;
       emin = 0;
-      emax = 1500;
+      emax = 36;
       tminmax = 160;
       displaycity = 'COURTRAI';
   } else if (city === 'Bruxelles') {
