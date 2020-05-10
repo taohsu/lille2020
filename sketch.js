@@ -313,9 +313,9 @@ image(img, 0, 0);
   push();
   translate(440,556);
   text('ENERGY PER SITE', 0, -10);
-  for (var i = 0; i < index; i++) {
+  for (var i = 0; i < 10; i++) {
 
-      rect(10*i,20,10,10);
+      rect(10*i,0,10,10);
   }
   text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
