@@ -322,7 +322,6 @@ image(img, 0, 0);
   text('Max', 65, 5);
   text(eminMax[0].toFixed(2), 0, 20);
   text(eminMax[1].toFixed(2), 65, 20);
-  text('KWh/h'.toFixed(2), 0, 20);
     
   colorMode(HSB, 360, 150, 50);
   fill(180, 100, 30);
