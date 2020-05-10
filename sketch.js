@@ -291,8 +291,8 @@ image(img, 0, 0);
   
   trafficTotal = trafficArray.reduce(getSum);
   energyTotal = energyArray.reduce(getSum);
-  console.log(trafficTotal);
-  console.log(energyTotal);
+//  console.log(trafficTotal);
+//  console.log(energyTotal);
 
     
   textSize(10);
