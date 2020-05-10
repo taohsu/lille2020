@@ -244,7 +244,7 @@ image(img, 0, 0);
   // }
        // sum all sites per hour
 //  trafficPerhourAll = trafficPerhourArray.reduce(getSum);
-  console.log(trafficPerhour.reduce(getSum);
+  console.log(trafficPerhourArray);
 //  energyPerhourAll = energyPerhourArray.reduce(getSum);
   console.log(energyPerhourArray);
  
