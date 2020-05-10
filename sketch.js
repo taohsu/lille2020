@@ -328,8 +328,8 @@ image(img, 0, 0);
   color(round(map(eminMax[1], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
   rect(50,10,5,10);
     
-  colorMode(RGB, 255, 255, 255);
-  fill(255, 255, 255);
+//  colorMode(RGB, 255, 255, 255);
+//  fill(255, 255, 255);
   
   text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
