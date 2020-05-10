@@ -313,8 +313,10 @@ image(img, 0, 0);
   push();
   translate(460,556);
   text('ENERGY PER SITE', 0, -10);
-  text('Min', 0, -20);
-  text('Max', 65, -20);
+  text('Min', 0, 5);
+  text('Max', 65, 5);
+  text(eminMax[0], 0, 20);
+  text(eminMax[0], 65, 20);
     
   colorMode(HSB, 360, 150, 50);
   fill(180, 100, 30);
