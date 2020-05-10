@@ -314,8 +314,10 @@ image(img, 0, 0);
   translate(440,556);
   text('ENERGY PER SITE', 0, -10);
     
-  colorMode(HSB, 360, 150, 50);
-  color(round(map(eminMax[0], eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
+  colorMode(HSB);
+  color(180 % 360, 100, 100);
+  rect(0,10,10,10);
+  color(360 % 360, 100, 100);
   rect(0,10,10,10);
 //  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 1 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
 //  rect(10,10,10,10);
