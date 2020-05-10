@@ -219,8 +219,6 @@ image(img, 0, 0);
     trafficPerhour = trafficall[i][index];
     energyPerhour = energyall[i][index];
     append(energyPerhourArray, energyPerhour);
-    energyPerhourAll = energyPerhourArray.reduce(getSum);
-    console.log('++' + energyPerhourAll);
     
     for (var y = 1; y < N + 1; y++) {
       for (var x = 1; x < N + 1; x++) {
@@ -238,6 +236,11 @@ image(img, 0, 0);
       
   }
   // }
+  energyPerhourAll = energyPerhourArray.reduce(getSum);
+  console.log('++' + energyPerhourAll);
+    
+    
+    
 
   var nextGrid = createGrid();
   for (var y = 1; y < N + 1; y++) {
