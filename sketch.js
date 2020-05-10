@@ -225,7 +225,7 @@ image(img, 0, 0);
     energyPerhour = energyall[i][index];
     append(trafficPerhourArray, trafficPerhour);
     append(energyPerhourArray, energyPerhour);
-      if(trafficPerhourArray > locationx.length){
+      if(trafficPerhourArray.length > locationx.length) {
          trafficPerhourArray = [];
          append(trafficPerhourArray, trafficPerhour);
          }
