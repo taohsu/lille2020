@@ -50,6 +50,8 @@ var inde = 0;
 var index;
 
 var trafficPerhour = 0;
+var trafficPerhourArray = [];
+var trafficPerhourAll;
 var trafficTotal = 0;
 var trafficArray = [];
 
@@ -218,6 +220,7 @@ image(img, 0, 0);
     
     trafficPerhour = trafficall[i][index];
     energyPerhour = energyall[i][index];
+    append(trafficPerhourArray, trafficPerhour);
     append(energyPerhourArray, energyPerhour);
     
     for (var y = 1; y < N + 1; y++) {
@@ -236,8 +239,12 @@ image(img, 0, 0);
       
   }
   // }
+       // sum all sites per hour
+  trafficPerhourAll = trafficPerhourArray.reduce(getSum);
+  console.log('++' + trafficPerhourAll);
   energyPerhourAll = energyPerhourArray.reduce(getSum);
   console.log('++' + energyPerhourAll);
+ 
     
     
     
@@ -263,11 +270,11 @@ image(img, 0, 0);
   
   // }
   
-  trafficArray[index] = trafficPerhour;
+  trafficArray[index] = trafficPerhourAll;
   console.log(trafficArray);
   console.log('tmin' + min(trafficArray));
   console.log('tmax' + max(trafficArray));
-  energyArray[index] = energyPerhour;
+  energyArray[index] = energyPerhourAll;
   console.log(energyArray);
   console.log('emin' + min(energyArray));
   console.log('emax' + max(energyArray));
@@ -303,7 +310,7 @@ image(img, 0, 0);
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
-  text(trafficPerhour.toFixed(2) + ' GB/h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 0, 36);
+  text(trafficPerhourAll.toFixed(2) + ' GB/h' + '  Total: ' + trafficTotal.toFixed(2) + ' GB', 0, 36);
   pop();
   
   push();
@@ -315,7 +322,7 @@ image(img, 0, 0);
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
-  text(energyPerhour.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
+  text(energyPerhourAll.toFixed(2) + ' KWh/h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
   pop();
     
   push();
