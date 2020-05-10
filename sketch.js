@@ -245,7 +245,8 @@ image(img, 0, 0);
        // sum all sites per hour
   trafficPerhourAll = trafficPerhourArray.slice(trafficPerhourArray.length - locationx.length, trafficPerhourArray.length).reduce(getSum);
   console.log(trafficPerhourArray.slice(trafficPerhourArray.length - locationx.length, trafficPerhourArray.length));
-  energyPerhourAll = (energyPerhourArray.slice(energyPerhourArray.length - locationx.length, energyPerhourArray.length).reduce(getSum);
+    
+  energyPerhourAll = energyPerhourArray.slice(energyPerhourArray.length - locationx.length, energyPerhourArray.length).reduce(getSum);
   console.log(energyPerhourArray.slice(energyPerhourArray.length - locationx.length, energyPerhourArray.length));
  
     
