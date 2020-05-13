@@ -130,9 +130,9 @@ function setup() {
       siteRangeY2 = 50.811246;
       reso = 1.5;
       tmin = 0;
-      tmax = 1600;
+      tmax = 21800;
       emin = 0;
-      emax = 36;
+      emax = 200;
       tminmax = 730;
       displaycity = 'BRUXELLES';
   }
