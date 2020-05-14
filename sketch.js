@@ -321,7 +321,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(300,556);
+  translate(320,556);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
@@ -333,7 +333,7 @@ image(img, 0, 0);
   pop();
     
   push();
-  translate(460,556);
+  translate(500,556);
   text('ENERGY PER SITE', 0, -10);
   text('Min', 0, 5);
   text('Max', 65, 5);
