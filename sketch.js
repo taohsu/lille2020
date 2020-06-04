@@ -298,7 +298,7 @@ image(img, 0, 0);
 //  text('11:06', 10, height - 200);
   push();
   translate(10,556);
-  text(antenna, 0, -10);
+  text(antenna + '  ' + siteCount, 0, -10);
   textStyle(BOLD);
   text(displaycity, 0, 5);
   textStyle(NORMAL);
