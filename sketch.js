@@ -301,7 +301,7 @@ image(img, 0, 0);
 //  text('11:06', 10, height - 200);
   push();
   translate(10,486);
-  text(antenna + '  ' + siteCount, 0, -10);
+  text(antenna + '  ' + siteCount + ' sites', 0, -10);
   textStyle(BOLD);
   text(displaycity, 0, 5);
   textStyle(NORMAL);
@@ -340,7 +340,7 @@ image(img, 0, 0);
   push();
   translate(332,556);
   textSize(9);
-  text('ENERGY RATIO ', 0, -10);
+  text('ENERGY RATIO ' + antenna, 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
       rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
