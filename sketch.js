@@ -343,11 +343,12 @@ image(img, 0, 0);
   text('ENERGY RATIO ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
-      rect(2*i,35,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -35));
+      rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
   }
-  rect(0,35,48,1);
-  rect(0,35,1,-35);
-  text((energyTotal/trafficTotal).toFixed(2) + ' KWh/GB', 0, 36);
+  rect(0,36,48,1);
+  rect(0,36,1,-36);
+  text((energyTotal/trafficTotal).toFixed(2), 48, 26);
+  text(' KWh/GB', 48, 36);
   pop();
     
   push();
