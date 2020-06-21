@@ -322,7 +322,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(156,556);
+  translate(166,556);
   textSize(9);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
