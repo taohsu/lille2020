@@ -330,11 +330,12 @@ image(img, 0, 0);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
-      rect(2*i,20,2,map(energyArray[i], emin, emax, 0, -20));
+      rect(2*i,36,2,map(energyArray[i], emin, emax, 0, -36));
   }
-  rect(0,20,48,1);
-  rect(0,20,1,-20);
-  text(energyArray[i].toFixed(2) + ' KWh / h' + '  Total: ' + energyTotal.toFixed(2) + ' KWh', 0, 36);
+  rect(0,36,48,1);
+  rect(0,36,1,-36);
+  text(energyArray[i].toFixed(2) + ' KWh / h', 60, 26);
+  text('Total: ' + energyTotal.toFixed(2) + ' KWh', 60, 36);
   pop();
     
   push();
