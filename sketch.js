@@ -320,7 +320,7 @@ image(img, 0, 0);
       rect(2*i,36,2,map(trafficArray[i], tmin, tmax, 0, -36));
   }
   rect(0,36,48,1);
-  rect(0,36,1,-36);
+  rect(0,37,1,-37);
   text(trafficArray[i].toFixed(2) + ' GB / h', 60, 22);
   text('Total: ' + trafficTotal.toFixed(2) + ' GB', 60, 36);
   pop();
@@ -334,7 +334,7 @@ image(img, 0, 0);
       rect(2*i,36,2,map(energyArray[i], emin, emax, 0, -36));
   }
   rect(0,36,48,1);
-  rect(0,36,1,-36);
+  rect(0,37,1,-37);
   text(energyArray[i].toFixed(2) + ' KWh / h', 60, 22);
   text('Total: ' + energyTotal.toFixed(2) + ' KWh', 60, 36);
   pop();
@@ -348,7 +348,7 @@ image(img, 0, 0);
       rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
   }
   rect(0,36,48,1);
-  rect(0,36,1,-36);
+  rect(0,37,1,-37);
   textSize(18);
 //  textStyle(BOLD);
   text((energyTotal/trafficTotal).toFixed(2), 60, 22);
