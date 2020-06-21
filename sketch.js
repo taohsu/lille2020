@@ -336,7 +336,8 @@ image(img, 0, 0);
     
   push();
   translate(490,556);
-  text('ENERGY PER SITE', 0, -10);
+  textSize(9);
+  text('ENERGY COMSUMPTION PER SITE', 0, -10);
   text('Min', 0, 5);
   text('Max', 65, 5);
   text(eminMax[0].toFixed(2), 0, 20);
