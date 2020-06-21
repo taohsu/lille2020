@@ -340,11 +340,11 @@ image(img, 0, 0);
   text('ENERGY PER DATA ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
-      rect(2*i,20,2,map(energyArray[i]/trafficArray[i], emin, emax, 0, -20));
+      rect(2*i,20,2,map(energyArray[i]/trafficArray[i], 0, 1, 0, -20));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
-  text((energyArray[i]/trafficArray[i]).toFixed(2), 0, 36);
+  text((energyArray[i]/trafficArray[i]).toFixed(2) + ' KWh/GB', 0, 36);
   pop();
     
   push();
