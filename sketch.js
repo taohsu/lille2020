@@ -343,7 +343,7 @@ image(img, 0, 0);
   text('ENERGY RATIO ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
-      rect(2*i,30,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -30));
+      rect(2*i,35,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -35));
   }
   rect(0,20,48,1);
   rect(0,20,1,-20);
