@@ -352,7 +352,7 @@ image(img, 0, 0);
   text((energyTotal/trafficTotal).toFixed(2), 60, 22);
   textSize(9);
 //  textStyle(NORMAL);
-  text(' KWh/GB', 60, 36);
+  text('KWh/GB', 60, 36);
   pop();
     
   push();
