@@ -321,7 +321,7 @@ image(img, 0, 0);
   }
   fill(255, 255, 255, 125);
   rect(0,36,48,1);
-  rect(0,37,1,-37);
+  rect(-1,37,1,-37);
   fill(255, 255, 255, 255);
   text(trafficArray[i].toFixed(2) + ' GB / h', 60, 22);
   text('Total: ' + trafficTotal.toFixed(2) + ' GB', 60, 36);
@@ -337,7 +337,7 @@ image(img, 0, 0);
   }
   fill(255, 255, 255, 125);
   rect(0,36,48,1);
-  rect(0,37,1,-37);
+  rect(-1,37,1,-37);
   fill(255, 255, 255, 255);
   text(energyArray[i].toFixed(2) + ' KWh / h', 60, 22);
   text('Total: ' + energyTotal.toFixed(2) + ' KWh', 60, 36);
@@ -353,7 +353,7 @@ image(img, 0, 0);
   }
   fill(255, 255, 255, 125);
   rect(0,36,48,1);
-  rect(0,37,1,-37);
+  rect(-1,37,1,-37);
   fill(255, 255, 255, 255);
   textSize(18);
 //  textStyle(BOLD);
