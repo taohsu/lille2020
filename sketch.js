@@ -309,7 +309,7 @@ image(img, 0, 0);
 
   fill(255);
   push();
-  translate(136,556);
+  translate(136,536);
   textSize(8);
   text('DATA TRAFFIC ', 0, -10);
   for (var i = 0; i < index; i++) {
