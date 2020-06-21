@@ -310,7 +310,7 @@ image(img, 0, 0);
   fill(255);
   push();
   translate(10,556);
-  textSize(8);
+  textSize(9);
   text('DATA TRAFFIC ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(trafficArray[i], tminMax[0], tminMax[1], 0, -20));
@@ -323,7 +323,7 @@ image(img, 0, 0);
   
   push();
   translate(156,556);
-  textSize(8);
+  textSize(9);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
