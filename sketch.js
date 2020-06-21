@@ -347,7 +347,7 @@ image(img, 0, 0);
   }
   rect(0,36,48,1);
   rect(0,36,1,-36);
-  extSize(16);
+  textSize(16);
 //  textStyle(BOLD);
   text((energyTotal/trafficTotal).toFixed(2), 60, 16);
   extSize(9);
