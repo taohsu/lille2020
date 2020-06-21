@@ -350,7 +350,7 @@ image(img, 0, 0);
   textSize(16);
 //  textStyle(BOLD);
   text((energyTotal/trafficTotal).toFixed(2), 60, 16);
-  extSize(9);
+  textSize(9);
 //  textStyle(NORMAL);
   text(' KWh/GB', 60, 36);
   pop();
