@@ -337,11 +337,11 @@ image(img, 0, 0);
   push();
   translate(490,556);
   textSize(9);
-  text('ENERGY COMSUMPTION PER SITE', 0, -10);
-  text('Min', 0, 5);
-  text('Max', 65, 5);
-  text(eminMax[0].toFixed(2), 0, 20);
-  text(eminMax[1].toFixed(2), 65, 20);
+  text('ENERGY COMSUMPTION', 0, -10);
+  text('PER SITE', 0, 5);
+  text(' ', 65, 5);
+  text('Min' + eminMax[0].toFixed(2), 0, 20);
+  text('Max' + eminMax[1].toFixed(2), 65, 20);
     
   colorMode(HSB, 360, 150, 50);
   fill(180, 100, 30);
