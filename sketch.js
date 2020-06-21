@@ -345,8 +345,8 @@ image(img, 0, 0);
 //    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
       rect(2*i,35,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -35));
   }
-  rect(0,20,48,1);
-  rect(0,20,1,-20);
+  rect(0,35,48,1);
+  rect(0,35,1,-35);
   text((energyTotal/trafficTotal).toFixed(2) + ' KWh/GB', 0, 36);
   pop();
     
