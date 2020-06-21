@@ -347,9 +347,9 @@ image(img, 0, 0);
   }
   rect(0,36,48,1);
   rect(0,36,1,-36);
-  textSize(16);
+  textSize(18);
 //  textStyle(BOLD);
-  text((energyTotal/trafficTotal).toFixed(2), 60, 16);
+  text((energyTotal/trafficTotal).toFixed(2), 60, 22);
   textSize(9);
 //  textStyle(NORMAL);
   text(' KWh/GB', 60, 36);
