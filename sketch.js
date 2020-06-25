@@ -328,7 +328,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(166,556);
+  translate(176,556);
   textSize(9);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
@@ -344,9 +344,9 @@ image(img, 0, 0);
   pop();
     
   push();
-  translate(332,556);
+  translate(342,556);
   textSize(9);
-  text('RATIO ENERGY / DATA' + antenna, 0, -10);
+  text('RATIO ENERGY/DATA', 0, -10);
 //  for (var i = 0; i < index; i++) {
 ////    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
 //      rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
@@ -364,7 +364,7 @@ image(img, 0, 0);
   pop();
     
   push();
-  translate(490,556);
+  translate(480,556);
   textSize(9);
   text('RANGE OF ENERGY', 0, -10);
   text('CONSUMPTION PER SITE', 0, 2);
