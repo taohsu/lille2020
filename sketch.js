@@ -346,21 +346,21 @@ image(img, 0, 0);
   push();
   translate(332,556);
   textSize(9);
-  text('ENERGY RATIO ' + antenna, 0, -10);
-  for (var i = 0; i < index; i++) {
-//    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
-      rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
-  }
-  fill(255, 255, 255, 125);
-  rect(0,36,48,1);
-  rect(-1,37,1,-37);
+  text('RATIO ENERGY / DATA' + antenna, 0, -10);
+//  for (var i = 0; i < index; i++) {
+////    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
+//      rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
+//  }
+//  fill(255, 255, 255, 125);
+//  rect(0,36,48,1);
+//  rect(-1,37,1,-37);
   fill(255, 255, 255, 255);
   textSize(18);
 //  textStyle(BOLD);
-  text((energyTotal/trafficTotal).toFixed(2), 60, 22);
+  text((energyTotal/trafficTotal).toFixed(2), 0, 22);
   textSize(9);
 //  textStyle(NORMAL);
-  text('KWh / GB', 60, 36);
+  text('KWh / GB', 0, 36);
   pop();
     
   push();
