@@ -347,7 +347,7 @@ image(img, 0, 0);
   translate(342,556);
   textSize(9);
   text('RATIO', 0, -10);
-  text('ENERGY EFFICIENCY', 0, 2);
+  text('ENERGY PER GB', 0, 2);
 //  for (var i = 0; i < index; i++) {
 ////    rect(2*i,20,2,map(energyArray[i], eminMax[0], eminMax[1], 0, -20));
 //      rect(2*i,36,2,map(energyArray[i]/trafficArray[i], 0, rmax, 0, -36));
