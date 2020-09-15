@@ -1,184 +1,184 @@
 {
   "sites": [
     {
-      "siteName": "O30285-HARELBEKE",
-      "x": 3.2967,
-      "y": 50.8292
-    },
-    {
-      "siteName": "O30339-KOR_KAPELTERBEDE",
-      "x": 3.2953,
-      "y": 50.8258
-    },
-    {
-      "siteName": "O30341-KOR_SPOORBERMSTRAAT",
-      "x": 3.2901,
-      "y": 50.835
-    },
-    {
-      "siteName": "O30066-ZI_KORTRIJK1",
-      "x": 3.2778,
-      "y": 50.8036
-    },
-    {
-      "siteName": "O30014-AZ_GROENINGE_KORTRIJK",
-      "x": 3.2644,
+      "siteName": "O30014-AZ_GROENINGE_KORTRIJK", 
+      "x": 3.2644, 
       "y": 50.8006
-    },
+    }, 
     {
-      "siteName": "O30059-KORTRIJK_SOUTH",
-      "x": 3.2649,
-      "y": 50.8221
-    },
-    {
-      "siteName": "O30056-KORTRIJK_CENTRE",
-      "x": 3.2594,
-      "y": 50.8333
-    },
-    {
-      "siteName": "O30222-KORTRIJK",
-      "x": 3.2651,
-      "y": 50.827
-    },
-    {
-      "siteName": "O30061-KORTRIJK_MARKE",
-      "x": 3.2488,
-      "y": 50.8109
-    },
-    {
-      "siteName": "O30288-KORTRIJK_ELISABETH",
-      "x": 3.2838,
-      "y": 50.819
-    },
-    {
-      "siteName": "O30058-BISSEGEM",
-      "x": 3.2469,
-      "y": 50.8186
-    },
-    {
-      "siteName": "O30062-POTTELHER",
-      "x": 3.2749,
-      "y": 50.8109
-    },
-    {
-      "siteName": "O30355-KOR_DANNEELST",
-      "x": 3.2739,
-      "y": 50.8185
-    },
-    {
-      "siteName": "O30409-KOR_TUINSTRAAT",
-      "x": 3.2687,
-      "y": 50.8252
-    },
-    {
-      "siteName": "O30286-KORTRIJK_GROENINGE",
-      "x": 3.2771,
-      "y": 50.8232
-    },
-    {
-      "siteName": "O30053-KORTRIJK_BRUGSESTWEG",
-      "x": 3.2666,
-      "y": 50.8484
-    },
-    {
-      "siteName": "O30287-HARELBEKE_2",
-      "x": 3.2924,
-      "y": 50.8463
-    },
-    {
-      "siteName": "O30290-HEULE",
-      "x": 3.2361,
-      "y": 50.8501
-    },
-    {
-      "siteName": "O30055-KOR_VIJFWEGEN",
-      "x": 3.2398,
-      "y": 50.8341
-    },
-    {
-      "siteName": "O30068-ZI_KORTRIJK4",
-      "x": 3.2658,
-      "y": 50.8563
-    },
-    {
-      "siteName": "O30301-R8_KORTRIJK",
-      "x": 3.2252,
-      "y": 50.8439
-    },
-    {
-      "siteName": "O30054-KUURNE",
-      "x": 3.2771,
-      "y": 50.8584
-    },
-    {
-      "siteName": "O30376-KUU_VELDMAARSCHALK",
-      "x": 3.2745,
-      "y": 50.8502
-    },
-    {
-      "siteName": "O30361-KUU_HEILIGHARTSTRAAT",
-      "x": 3.2877,
-      "y": 50.8501
-    },
-    {
-      "siteName": "O30350-KUU_SPIJKER",
-      "x": 3.291,
-      "y": 50.8589
-    },
-    {
-      "siteName": "O30051-GULLEGEM",
-      "x": 3.2044,
-      "y": 50.8433
-    },
-    {
-      "siteName": "O30060-MARKE",
-      "x": 3.2241,
-      "y": 50.8077
-    },
-    {
-      "siteName": "O30057-KORTRIJK_MEENSESTEEN",
-      "x": 3.2139,
-      "y": 50.8232
-    },
-    {
-      "siteName": "O30291-KORTRIJK_WEST",
-      "x": 3.2232,
-      "y": 50.8259
-    },
-    {
-      "siteName": "O30300-KORTRIJK_NORTH",
-      "x": 3.251,
-      "y": 50.8519
-    },
-    {
-      "siteName": "O30346-GUL_EUROPALAAN",
-      "x": 3.2169,
-      "y": 50.8407
-    },
-    {
-      "siteName": "O30310-KOR_ZANDBERGSTRAAT",
-      "x": 3.2765,
-      "y": 50.8441
-    },
-    {
-      "siteName": "O30357-KOR_SINT_ELOOISDREEF",
-      "x": 3.2619,
-      "y": 50.8391
-    },
-    {
-      "siteName": "O32386-STOKERIJ_N50",
-      "x": 3.2644,
-      "y": 50.862
-    },
-    {
-      "siteName": "O30022-K_IN_KORTRIJK_3G",
-      "x": 3.2701,
+      "siteName": "O30022-K_IN_KORTRIJK_3G", 
+      "x": 3.2701, 
       "y": 50.8269
-    },
+    }, 
     {
-      "siteName": "O30406-KOR_GUIDOGEZELLEPAD",
-      "x": 3.2712,
+      "siteName": "O30051-GULLEGEM", 
+      "x": 3.2044, 
+      "y": 50.8433
+    }, 
+    {
+      "siteName": "O30053-KORTRIJK_BRUGSESTWEG", 
+      "x": 3.2666, 
+      "y": 50.8484
+    }, 
+    {
+      "siteName": "O30054-KUURNE", 
+      "x": 3.2771, 
+      "y": 50.8584
+    }, 
+    {
+      "siteName": "O30055-KOR_VIJFWEGEN", 
+      "x": 3.2398, 
+      "y": 50.8341
+    }, 
+    {
+      "siteName": "O30056-KORTRIJK_CENTRE", 
+      "x": 3.2594, 
+      "y": 50.8333
+    }, 
+    {
+      "siteName": "O30057-KORTRIJK_MEENSESTEEN", 
+      "x": 3.2139, 
+      "y": 50.8232
+    }, 
+    {
+      "siteName": "O30058-BISSEGEM", 
+      "x": 3.2469, 
+      "y": 50.8186
+    }, 
+    {
+      "siteName": "O30059-KORTRIJK_SOUTH", 
+      "x": 3.2649, 
+      "y": 50.8221
+    }, 
+    {
+      "siteName": "O30060-MARKE", 
+      "x": 3.2241, 
+      "y": 50.8077
+    }, 
+    {
+      "siteName": "O30061-KORTRIJK_MARKE", 
+      "x": 3.2488, 
+      "y": 50.8109
+    }, 
+    {
+      "siteName": "O30062-POTTELHER", 
+      "x": 3.2749, 
+      "y": 50.8109
+    }, 
+    {
+      "siteName": "O30066-ZI_KORTRIJK1", 
+      "x": 3.2778, 
+      "y": 50.8036
+    }, 
+    {
+      "siteName": "O30068-ZI_KORTRIJK4", 
+      "x": 3.2658, 
+      "y": 50.8563
+    }, 
+    {
+      "siteName": "O30222-KORTRIJK", 
+      "x": 3.2651, 
+      "y": 50.827
+    }, 
+    {
+      "siteName": "O30285-HARELBEKE", 
+      "x": 3.2967, 
+      "y": 50.8292
+    }, 
+    {
+      "siteName": "O30286-KORTRIJK_GROENINGE", 
+      "x": 3.2771, 
+      "y": 50.8232
+    }, 
+    {
+      "siteName": "O30287-HARELBEKE_2", 
+      "x": 3.2924, 
+      "y": 50.8463
+    }, 
+    {
+      "siteName": "O30288-KORTRIJK_ELISABETH", 
+      "x": 3.2838, 
+      "y": 50.819
+    }, 
+    {
+      "siteName": "O30290-HEULE", 
+      "x": 3.2361, 
+      "y": 50.8501
+    }, 
+    {
+      "siteName": "O30291-KORTRIJK_WEST", 
+      "x": 3.2232, 
+      "y": 50.8259
+    }, 
+    {
+      "siteName": "O30300-KORTRIJK_NORTH", 
+      "x": 3.251, 
+      "y": 50.8519
+    }, 
+    {
+      "siteName": "O30301-R8_KORTRIJK", 
+      "x": 3.2252, 
+      "y": 50.8439
+    }, 
+    {
+      "siteName": "O30310-KOR_ZANDBERGSTRAAT", 
+      "x": 3.2765, 
+      "y": 50.8441
+    }, 
+    {
+      "siteName": "O30339-KOR_KAPELTERBEDE", 
+      "x": 3.2953, 
+      "y": 50.8258
+    }, 
+    {
+      "siteName": "O30341-KOR_SPOORBERMSTRAAT", 
+      "x": 3.2901, 
+      "y": 50.835
+    }, 
+    {
+      "siteName": "O30346-GUL_EUROPALAAN", 
+      "x": 3.2169, 
+      "y": 50.8407
+    }, 
+    {
+      "siteName": "O30350-KUU_SPIJKER", 
+      "x": 3.291, 
+      "y": 50.8589
+    }, 
+    {
+      "siteName": "O30355-KOR_DANNEELST", 
+      "x": 3.2739, 
+      "y": 50.8185
+    }, 
+    {
+      "siteName": "O30357-KOR_SINT_ELOOISDREEF", 
+      "x": 3.2619, 
+      "y": 50.8391
+    }, 
+    {
+      "siteName": "O30361-KUU_HEILIGHARTSTRAAT", 
+      "x": 3.2877, 
+      "y": 50.8501
+    }, 
+    {
+      "siteName": "O30376-KUU_VELDMAARSCHALK", 
+      "x": 3.2745, 
+      "y": 50.8502
+    }, 
+    {
+      "siteName": "O30406-KOR_GUIDOGEZELLEPAD", 
+      "x": 3.2712, 
       "y": 50.8348
+    }, 
+    {
+      "siteName": "O30409-KOR_TUINSTRAAT", 
+      "x": 3.2687, 
+      "y": 50.8252
+    }, 
+    {
+      "siteName": "O32386-STOKERIJ_N50", 
+      "x": 3.2644, 
+      "y": 50.862
     }
   ]
 }
