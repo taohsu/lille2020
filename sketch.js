@@ -344,7 +344,7 @@ image(img, 0, 0);
   pop();
     
   push();
-  translate(342,556);
+  translate(480,556);
   textSize(9);
   text('RATIO', 0, -10);
   text('ENERGY PER GB', 0, 2);
@@ -365,7 +365,7 @@ image(img, 0, 0);
   pop();
     
   push();
-  translate(480,40);
+  translate(480,30);
   textSize(9);
   text('RANGE OF ENERGY', 0, -10);
   text('CONSUMPTION PER SITE', 0, 2);
