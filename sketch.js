@@ -295,17 +295,18 @@ image(img, 0, 0);
 //  console.log(energyTotal);
 
     
-  textSize(10);
   colorMode(RGB, 255, 255, 255);
   fill(255, 255, 255);
 //  text('11:06', 10, height - 200);
   push();
   translate(10,30);
   textStyle(BOLD);
+  textSize(14);
   text(displaycity, 0, -10);
   pop();
   push();
   translate(10,556);
+  textSize(10);
   textStyle(NORMAL);
   text(antenna + '  ' + siteCount + ' sites', 0, -10);
   text(daydayday + ' ' + date, 0, 20);
