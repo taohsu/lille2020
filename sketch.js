@@ -370,8 +370,8 @@ image(img, 0, 0);
     
   push();
   translate(480,30);
-  textSize(8);
-  text('Energy consumption per site', -10, -10);
+  textSize(9);
+  text('ENERGY CONSUMPTION PER SITE', -10, -10);
   text(' ', 65, 5);
   text(eminMax[0].toFixed(2), 0, 0);
   text(eminMax[1].toFixed(2), 75, 0);
