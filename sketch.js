@@ -376,7 +376,7 @@ image(img, 0, 0);
   push();
   translate(-40,10);
   text(eminMax[0].toFixed(2), 0, 0);
-  text(eminMax[1].toFixed(2), 110, 0);
+  text(eminMax[1].toFixed(2), 140, 0);
     push();
     translate(20,-5);
       colorMode(HSB, 360, 150, 50);
