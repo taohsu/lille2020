@@ -370,14 +370,14 @@ image(img, 0, 0);
     
   push();
   translate(480,30);
-  textSize(9);
-  text('RANGE OF ENERGY', 0, -10);
-  text('CONSUMPTION PER SITE', 0, 2);
+  textSize(8);
+  text('RANGE OF ENERGY', 0, 40);
+  text('CONSUMPTION PER SITE', 0, 48);
   text(' ', 65, 5);
-  text('Min ' + eminMax[0].toFixed(2), 0, 20);
-  text('Max ' + eminMax[1].toFixed(2), 65, 20);
+  text('Min ' + eminMax[0].toFixed(2), 0, -10);
+  text('Max ' + eminMax[1].toFixed(2), 65, -10);
     
-  colorMode(HSB, 360, 150, 50);
+  colorMode(HSB, 360, 150, 20);
   fill(180, 100, 30);
   rect(0,27,5,5);
   fill(189, 100, 30);
