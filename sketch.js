@@ -371,14 +371,14 @@ image(img, 0, 0);
   push();
   translate(480,30);
   textSize(9);
-  text('ENERGY CONSUMPTION PER SITE', -10, -10);
+  text('ENERGY CONSUMPTION PER SITE', -40, -10);
   
   push();
   translate(0,10);
   text(eminMax[0].toFixed(2), 0, 0);
   text(eminMax[1].toFixed(2), 75, 0);
     push();
-    translate(30,0);
+    translate(25,-5);
       colorMode(HSB, 360, 150, 50);
       fill(180, 100, 30);
       rect(0,0,5,5);
