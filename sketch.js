@@ -300,7 +300,7 @@ image(img, 0, 0);
   fill(255, 255, 255);
 //  text('11:06', 10, height - 200);
   push();
-  translate(10,486);
+  translate(10,556);
   text(antenna + '  ' + siteCount + ' sites', 0, -10);
   textStyle(BOLD);
   text(displaycity, 0, 5);
@@ -312,7 +312,7 @@ image(img, 0, 0);
 
   fill(255);
   push();
-  translate(10,556);
+  translate(172,556);
   textSize(9);
   text('DATA TRAFFIC ', 0, -10);
   for (var i = 0; i < index; i++) {
@@ -328,7 +328,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(176,556);
+  translate(238,556);
   textSize(9);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
@@ -344,7 +344,7 @@ image(img, 0, 0);
   pop();
     
   push();
-  translate(480,556);
+  translate(500,556);
   textSize(9);
   text('RATIO', 0, -10);
   text('ENERGY PER GB', 0, 2);
