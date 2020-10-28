@@ -376,7 +376,9 @@ image(img, 0, 0);
   text(' ', 65, 5);
   text('Min ' + eminMax[0].toFixed(2), 0, -10);
   text('Max ' + eminMax[1].toFixed(2), 65, -10);
-    
+  
+  push();
+  translate(0,-30);
   colorMode(HSB, 360, 150, 50);
   fill(180, 100, 30);
   rect(0,0,5,5);
@@ -420,6 +422,7 @@ image(img, 0, 0);
   rect(95,0,5,5);
   fill(360, 100, 30);
   rect(100,0,5,5);
+  pop();
 //  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 1 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
 //  rect(10,10,10,10);
 //  color(round(map(((eminMax[1]-eminMax[0]) / 10) * 2 , eminMax[0], eminMax[1], 180, 360)) % 360, 100, 100);
