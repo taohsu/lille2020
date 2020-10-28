@@ -374,9 +374,9 @@ image(img, 0, 0);
   text('ENERGY CONSUMPTION PER SITE', -40, -10);
   
   push();
-  translate(-40,0);
+  translate(-40,5);
   text(eminMax[0].toFixed(2), 0, 0);
-  text(eminMax[1].toFixed(2), 130, 0);
+  text(eminMax[1].toFixed(2), 133, 0);
     push();
     translate(23,-5);
       colorMode(HSB, 360, 150, 50);
