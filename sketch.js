@@ -371,10 +371,10 @@ image(img, 0, 0);
   push();
   translate(480,30);
   textSize(8);
-  text('Range of energy consumption per site', -20, -10);
+  text('Range of energy consumption per site', -40, -10);
   text(' ', 65, 5);
   text('Min ' + eminMax[0].toFixed(2), 0, 0);
-  text('Max ' + eminMax[1].toFixed(2), 65, 0);
+  text('Max ' + eminMax[1].toFixed(2), 75, 0);
   
   push();
   translate(0,10);
