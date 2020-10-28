@@ -370,7 +370,7 @@ image(img, 0, 0);
     
   push();
   translate(480,30);
-  textSize();
+  textSize(8);
   text('RANGE OF ENERGY', 0, 40);
   text('CONSUMPTION PER SITE', 0, 48);
   text(' ', 65, 5);
