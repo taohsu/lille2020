@@ -312,7 +312,7 @@ image(img, 0, 0);
 
   fill(255);
   push();
-  translate(172,556);
+  translate(202,556);
   textSize(9);
   text('DATA TRAFFIC ', 0, -10);
   for (var i = 0; i < index; i++) {
@@ -328,7 +328,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(288,556);
+  translate(318,556);
   textSize(9);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
