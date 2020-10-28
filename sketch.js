@@ -306,9 +306,11 @@ image(img, 0, 0);
   pop();
   push();
   translate(10,556);
-  textSize(10);
+  textSize(18);
   textStyle(NORMAL);
-  text(antenna + '  ' + siteCount + ' sites', 0, -10);
+  text(antenna, 0, -10);
+  textSize(10);
+  text(siteCount + ' sites', 40, -10);
   text(daydayday + ' ' + date, 0, 20);
   fill('#9FFA5E');
   text(index + 'h', 0, 35);
@@ -316,7 +318,7 @@ image(img, 0, 0);
 
   fill(255);
   push();
-  translate(150,556);
+  translate(160,556);
   textSize(9);
   text('DATA TRAFFIC ', 0, -10);
   for (var i = 0; i < index; i++) {
@@ -332,7 +334,7 @@ image(img, 0, 0);
   pop();
   
   push();
-  translate(340,556);
+  translate(330,556);
   textSize(9);
   text('ENERGY COMSUMPTION ', 0, -10);
   for (var i = 0; i < index; i++) {
