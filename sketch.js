@@ -311,7 +311,7 @@ image(img, 0, 0);
   text(antenna, 0, 0);
   textSize(10);
   text(siteCount + ' sites', 30, 0);
-  text(daydayday + ' ' + date, 0, 20);
+  text(daydayday + ' ' + date, 0, 10);
   fill('#9FFA5E');
   text(index + 'h', 0, 35);
   pop();
