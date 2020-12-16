@@ -311,10 +311,10 @@ image(img, 0, 0);
   text(antenna, 0, 0);
   textSize(10);
   text(siteCount + ' sites', 30, 0);
-  text(daydayday + ' ' + date, 0, 15);
+  text(daydayday + ' ' + date, 0, 45);
   fill('#9FFA5E');
   textSize(16);
-  text(index + 'h', 0, 35);
+  text(index + 'h', 0, 15);
   pop();
 
   fill(255);
