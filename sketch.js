@@ -313,7 +313,8 @@ image(img, 0, 0);
   text(siteCount + ' sites', 30, 0);
   text(daydayday + ' ' + date, 0, 10);
   fill('#9FFA5E');
-  text(index + 'h', 0, 35);
+  textSize(16);
+  text(index + 'h', 0, 25);
   pop();
 
   fill(255);
