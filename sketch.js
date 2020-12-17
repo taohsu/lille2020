@@ -310,7 +310,7 @@ image(img, 0, 0);
   textStyle(NORMAL);
   text(antenna, 0, 0);
   textSize(10);
-  text(siteCount + ' sites', 30, 0);
+  text(siteCount + ' sites clusters', 30, 0);
   text(daydayday + ' ' + date, 0, 15);
   fill('#9FFA5E');
   textSize(16);
